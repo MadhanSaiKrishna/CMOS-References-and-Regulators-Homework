@@ -35,7 +35,7 @@
 
 \section{Lecture 1}
 
-\subsection{Question 1}
+\subsection{Proving Resistance: Current is proportional to Voltage}
 Do the 'DC Analysis' for the following circuits. Plot V vs I $\&$ write expression for the slope. Prove that its a resistance.\\
 \begin{figure}
     \centering
@@ -65,7 +65,7 @@ Plot for (b) : Using a Current source
     \caption{Plot for (b)}
 \end{figure}
 
-\subsection{Question 2}
+\subsection{Capacitance Amplifier using Controlled Sources}
 Design a capacitance amplifier using controlled sources.\\
 \begin{figure}
     \centering
@@ -73,26 +73,46 @@ Design a capacitance amplifier using controlled sources.\\
     \caption{Lecture 1 - Question 2, 3, 4}
 \end{figure}
 \textit{Answer: }\\
-
-\subsection{Question 3}
-Design a capacitance amplifier using controlled sources.\\
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_1_Q2_Soln.jpeg}
+    \caption{Question 2 - Solution}
+\end{figure}
+\subsection{Inductance Amplifier using Controlled Sources}
+Design a inductance amplifier using controlled sources.\\
 
 \textit{Answer: }\\
 
-\subsection{Question 4}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_1_Q3_Soln.jpeg}
+    \caption{Question 3 - Solution}
+\end{figure}
+
+\subsection{Resistance Amplifier using Controlled Sources}
 Sweep V vs I for (i) $k>1$ (ii) $0<k<1$ (iii) $K<0$ Prove $R_{eff}$ in each case is $\frac{R}{1-k}$.\\
 \textit{Answer: }\\
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_1_Q4_Soln.jpeg}
+    \caption{Question 4 - Solution}
+\end{figure}
 
 \section{Lecture 2}
-\subsection{Question 1}
+\subsection{Output Resistance}
 find the effective output resistance at $V_{out}$ i.e., $R_{out} = ?$ \\
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{images/Lec_2_Q_1.jpeg}
+    \includegraphics[width=0.8\linewidth]{images/Lec_2_Q1.jpeg}
     \caption{Lecture 2 - Question 1}
 \end{figure}
 \textit{Answer:}\\
 When we nullify the V1, the vccs vanish and the effective output resistance at vout node is $R_{out} = r_{ds_1} || r_{ds_2}$. 
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_2_Q_1_Soln.jpeg}
+    \caption{Solution for Question 1}
+\end{figure}
 Proved this using the plot with values.
 
 \begin{figure}
@@ -101,7 +121,7 @@ Proved this using the plot with values.
     \caption{Testbench}
 \end{figure}
 
-\subsection{Question 2}
+\subsection{Step Response for RC Circuit}
 Plot $V_{out}$ vs time in Cadence. Prove Theory. \\
 \begin{figure}
     \centering
@@ -110,6 +130,23 @@ Plot $V_{out}$ vs time in Cadence. Prove Theory. \\
 \end{figure}
 \textit{Answer:}\\
 Copy this from the notes\\
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_1.jpeg}
+    \caption{Solution for Question 2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_2.jpeg}
+    \caption{Solution for Question 2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_3.jpeg}
+    \caption{Solution for Question 2}
+\end{figure}
 Proved this using theory and from the simulations  by finding the output voltage after 1 time constant.
 
 \begin{figure}
@@ -131,7 +168,7 @@ Proved this using theory and from the simulations  by finding the output voltage
 \end{figure}
 
 \section{Lecture 3}
-\subsection{Question 1}
+\subsection{Step Response for passive RLC circuit Combinations}
 Plot $V_{out}$ vs $time$ and $I_{out}$ vs $time$
 \begin{itemize}
     \item 
@@ -143,40 +180,74 @@ Plot $V_{out}$ vs $time$ and $I_{out}$ vs $time$
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_1.jpeg}
     \caption{Lecture 3 - Question 1}
 \end{figure}
-\subsection{Question 2}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_3_Q1_Soln_1.jpeg}
+    \caption{Solution for Question 1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_3_Q1_Soln_2.jpeg}
+    \caption{Solution for Question 1}
+\end{figure}
+
+
+\subsection{Pulse Response for RC Circuit with varying Duty Cycle and Time Period}
 Plot $V_{out}$ vs $time$ (a) $D = 10\%$ (b) $D = 90\%$ (i) $T = 0.1RC$ (ii) $T = 10RC$ where $D = \frac{T_{ON}}{T}$
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_2.jpeg}
     \caption{Lecture 3 - Question 2}
 \end{figure}
-\subsection{Question 3}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_3_Q2_Soln.jpeg}
+    \caption{Solution for Question 2}
+\end{figure}
+\subsection{Bode Plot for a given Transfer Function}
 Draw Bode plot for $H(s) = \frac{(s - z_1)(s+z_2)}{(s+P_1)(s+P_2)(s+P_3)}$ where (i) $z_2 << p_1 << p_2 << p_3 << z_1$ (ii) $p_3 << p_2 << p_1 << z_1 << z_2$
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_3.jpeg}
     \caption{Lecture 3 - Question 3}
 \end{figure}
-
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_3_Q3_Soln.jpeg}
+    \caption{Solution for Question 3}
+\end{figure}
 \section{Lecture 4}
-\subsection{Question 1}
-Design a non-inverting schimdt trigger using opamp based circuits.
+\subsection{Non-inverting Schimtt Trigger}
+Design a non-inverting schimtt trigger using opamp based circuits.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_4_Q_1.jpeg}
     \caption{Lecture 4 - Question 1}
 \end{figure}
-\subsection{Question 2}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_4_Q1_Soln.jpeg}
+    \caption{Solution for Question 1}
+\end{figure}
+\subsection{Expression for Closed loop Unity gain bandwidth}
 Find the expression for Closed loop Unity gain bandwidth.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_4_Q_2_3.jpeg}
     \caption{Lecture 4 - Question 2,3}
 \end{figure}
-\subsection{Question 3}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_4_Q2_Soln.jpeg}
+    \caption{Solution for Question 2}
+\end{figure}
+\subsection{Non-Inverting Amplifier using Opamp and VCVS}
 In cadence, Plot $V_o$ vs $V_{in}$ (Sweep $V_{in}$ from $-V_{ss}$ to $V_{DD}$) for non-inverting amplifier using Opamp and VCVS for both positive and -ve feedback.
 \section{Lecture 5}
-\subsection{Question 1}
+\subsection{Single Pole Opamp with Feedback - Bode Plot}
 In Cadence, Bode Plot for 
 \begin{enumerate}
     \item A = 100, check $V_x$ (offset) [DC]
@@ -188,7 +259,7 @@ In Cadence, Bode Plot for
     \includegraphics[width=0.8\linewidth]{images/Lec_5_Q_1.jpeg}
     \caption{Lecture 5 - Question 1}
 \end{figure}
-\subsection{Question 2}
+\subsection{Bode Plot for a 2 Pole System}
 In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
 \begin{enumerate}
     \item $G_{m_1} = G_{m_2} = 10 \mu F$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$
@@ -205,14 +276,14 @@ In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
     \caption{Lecture 5 - Question 2 - Question}
 \end{figure}
 \section{Lecture 6}
-\subsection{Question 1}
+\subsection{Miller compensation - Bode Plot}
 Draw Bode plot for miller compensated circuit. \\ $G_{m_1} = G_{m_2} = 10 \mu S$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$ \\ Find Phase Margin, Unity Gain Bandwidth and DC Gain. (Theory + Cadence) (AC analysis/STB)
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_6_Q_1.jpeg}
     \caption{Lecture 6 - Question 1}
 \end{figure}
-\subsection{Question 2}
+\subsection{Adding a zero to a system}
 Simulate in cadence.
 \begin{figure}
     \centering
@@ -220,7 +291,7 @@ Simulate in cadence.
     \caption{Lecture 6 - Question 2}
 \end{figure}
 \section{Lecture 7}
-\subsection{Question 1}
+\subsection{Characterization of Resistors in TSMC 180nm}
 TSMC 18 lib, Simulate all the resistors $-40^\circ$ to $125^\circ$ (SS, TT, FF)
 TSMC 18 lib, Simulate all the resistors $-40^\circ$ to $125^\circ$ (SS, TT, FF)
 \begin{table}[ht]
@@ -241,7 +312,7 @@ R3 & Value & TypeC & Spread3 & Linear3 & Area3 \\
     \includegraphics[width=0.8\linewidth]{images/Lec_7_Q_1_2_3.jpeg}
     \caption{Lecture 7 - Question 1,2,3}
 \end{figure}
-\subsection{Question 2}
+\subsection{Characterization of Capacitors in TSMC 180nm}
 Repeate Question 1 with a capacitor. 
 \begin{table}[ht]
 \centering
@@ -257,12 +328,25 @@ C3 & Value & TypeC & Spread3 & Linear3 & Area3 \\
 \caption{Resistor characteristics under different conditions}
 \end{table}
 
-\subsection{Question 3}
+\subsection{PTAT, CTAT, Ref - Voltage, Current and Resistance Design Combinations}
 $V_{PTAT}, V_{CTAT}, V_{Ref}$\\ $I_{PTAT}, I_{CTAT}, I_{Ref}$\\ $R_{PTAT}, R_{CTAT}, R_{Ref}$\\
-All P and C for 9 values.
-% If you want to add a bibliography, include the following before \end{document}:
-% \begin{thebibliography}{9}
-% \bibitem{example} Author Name, \textit{Title of Paper}, Journal Name, Year.
-% \end{thebibliography}
+All P and C for 9 values. \\
+\subsubsection*{Solution:}
+\begin{align*}
+V_{PTAT} &= I_{PTAT} \cdot R_{Ref} \\
+V_{PTAT} &= I_{Ref} \cdot R_{PTAT} \\
+V_{PTAT} &= \frac{V_{CTAT}}{R_{CTAT}}\cdot R_{PTAT} \\
+V_{PTAT} &= \frac{V_{PTAT}}{R_{PTAT}}\cdot R_{PTAT} \\
+V_{PTAT} &= (I_{PTAT} + I_{CTAT}) \cdot R_{PTAT} \\
+V_{CTAT} &= I_{CTAT} \cdot R_{Ref} \\
+V_{Ref} &= I_{Ref} \cdot R_{Ref} \\
+I_{PTAT} &= \frac{V_{PTAT}}{R_{Ref}} \\
+I_{CTAT} &= \frac{V_{CTAT}}{R_{Ref}} \\
+I_{Ref} &= \frac{V_{Ref}}{R_{Ref}} \\
+R_{PTAT} &= \frac{V_{PTAT}}{I_{Ref}} \\
+R_{CTAT} &= \frac{V_{CTAT}}{I_{Ref}} \\
+R_{Ref} &= \frac{V_{Ref}}{I_{Ref}} \\
+\end{align*}
+
 
 \end{document}
