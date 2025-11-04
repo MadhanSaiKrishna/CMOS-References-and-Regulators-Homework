@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  1 SEP 2025 02:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  5 NOV 2025 01:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,24 +1005,24 @@ File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1080,278 +1080,559 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 32.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- (main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-<images/Lec_1_Q_1.jpeg, id=136, 2409.0pt x 898.35625pt>
-File: images/Lec_1_Q_1.jpeg Graphic file (type jpg)
-<use images/Lec_1_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_1_Q_1.jpeg  used on input line 42.
-(pdftex.def)             Requested size: 341.43437pt x 127.318pt.
-<images/Lec_1_Q_1_testbench.png, id=137, 1142.76938pt x 538.26094pt>
-File: images/Lec_1_Q_1_testbench.png Graphic file (type png)
-<use images/Lec_1_Q_1_testbench.png>
-Package pdftex.def Info: images/Lec_1_Q_1_testbench.png  used on input line 52.
-(pdftex.def)             Requested size: 426.79135pt x 201.02603pt.
-<images/Lec_1_Q_1_a_plot.png, id=139, 1433.355pt x 668.4975pt>
-File: images/Lec_1_Q_1_a_plot.png Graphic file (type png)
-<use images/Lec_1_Q_1_a_plot.png>
-Package pdftex.def Info: images/Lec_1_Q_1_a_plot.png  used on input line 58.
-(pdftex.def)             Requested size: 426.79135pt x 199.04112pt.
-<images/Lec_1_Q_1_b_plot.png, id=140, 1434.10782pt x 670.75594pt>
-File: images/Lec_1_Q_1_b_plot.png Graphic file (type png)
-<use images/Lec_1_Q_1_b_plot.png>
-Package pdftex.def Info: images/Lec_1_Q_1_b_plot.png  used on input line 64.
-(pdftex.def)             Requested size: 426.79135pt x 199.6112pt.
-<images/Lec_1_Q_2_3_4.jpeg, id=141, 2337.73375pt x 1306.8825pt>
-File: images/Lec_1_Q_2_3_4.jpeg Graphic file (type jpg)
-<use images/Lec_1_Q_2_3_4.jpeg>
-Package pdftex.def Info: images/Lec_1_Q_2_3_4.jpeg  used on input line 72.
-(pdftex.def)             Requested size: 341.43437pt x 190.85909pt.
-<images/Lec_1_Q2_Soln.jpeg, id=142, 2272.49pt x 2184.16pt>
-File: images/Lec_1_Q2_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_1_Q2_Soln.jpeg>
-Package pdftex.def Info: images/Lec_1_Q2_Soln.jpeg  used on input line 78.
-(pdftex.def)             Requested size: 426.79135pt x 410.19554pt.
-
+ (main.toc
 
 [1
 
-{C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+{C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 40.
+
+<images/Lec_1_Q_1.jpeg, id=299, 2409.0pt x 898.35625pt>
+File: images/Lec_1_Q_1.jpeg Graphic file (type jpg)
+<use images/Lec_1_Q_1.jpeg>
+Package pdftex.def Info: images/Lec_1_Q_1.jpeg  used on input line 44.
+(pdftex.def)             Requested size: 341.43437pt x 127.318pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
 
  []
+
+<images/Lec_1_Q_1_testbench.png, id=300, 1142.76938pt x 538.26094pt>
+File: images/Lec_1_Q_1_testbench.png Graphic file (type png)
+<use images/Lec_1_Q_1_testbench.png>
+Package pdftex.def Info: images/Lec_1_Q_1_testbench.png  used on input line 54.
+(pdftex.def)             Requested size: 426.79135pt x 201.02603pt.
+
+
+[2 <./images/Lec_1_Q_1.jpeg>]
+<images/Lec_1_Q_1_a_plot.png, id=311, 1433.355pt x 668.4975pt>
+File: images/Lec_1_Q_1_a_plot.png Graphic file (type png)
+<use images/Lec_1_Q_1_a_plot.png>
+Package pdftex.def Info: images/Lec_1_Q_1_a_plot.png  used on input line 60.
+(pdftex.def)             Requested size: 426.79135pt x 199.04112pt.
+<images/Lec_1_Q_1_b_plot.png, id=312, 1434.10782pt x 670.75594pt>
+File: images/Lec_1_Q_1_b_plot.png Graphic file (type png)
+<use images/Lec_1_Q_1_b_plot.png>
+Package pdftex.def Info: images/Lec_1_Q_1_b_plot.png  used on input line 66.
+(pdftex.def)             Requested size: 426.79135pt x 199.6112pt.
+
+
+[3 <./images/Lec_1_Q_1_testbench.png> <./images/Lec_1_Q_1_a_plot.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 70.
+
+<images/Lec_1_Q_2_3_4.jpeg, id=321, 2337.73375pt x 1306.8825pt>
+File: images/Lec_1_Q_2_3_4.jpeg Graphic file (type jpg)
+<use images/Lec_1_Q_2_3_4.jpeg>
+Package pdftex.def Info: images/Lec_1_Q_2_3_4.jpeg  used on input line 74.
+(pdftex.def)             Requested size: 341.43437pt x 190.85909pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--76
+
+ []
+
+<images/Lec_1_Q2_Soln.jpeg, id=322, 2272.49pt x 2184.16pt>
+File: images/Lec_1_Q2_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_1_Q2_Soln.jpeg>
+Package pdftex.def Info: images/Lec_1_Q2_Soln.jpeg  used on input line 80.
+(pdftex.def)             Requested size: 426.79135pt x 410.19554pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
+
+ []
+
+
+
+[4 <./images/Lec_1_Q_1_b_plot.png> <./images/Lec_1_Q_2_3_4.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 83.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<images/Lec_1_Q3_Soln.jpeg, id=159, 2078.76625pt x 1800.7275pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+<images/Lec_1_Q3_Soln.jpeg, id=330, 2078.76625pt x 1800.7275pt>
 File: images/Lec_1_Q3_Soln.jpeg Graphic file (type jpg)
 <use images/Lec_1_Q3_Soln.jpeg>
-Package pdftex.def Info: images/Lec_1_Q3_Soln.jpeg  used on input line 88.
+Package pdftex.def Info: images/Lec_1_Q3_Soln.jpeg  used on input line 90.
 (pdftex.def)             Requested size: 426.79135pt x 369.70107pt.
-<images/Lec_1_Q4_Soln.jpeg, id=160, 2008.50375pt x 3212.0pt>
+
+
+[5 <./images/Lec_1_Q2_Soln.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 94.
+
+<images/Lec_1_Q4_Soln.jpeg, id=336, 2008.50375pt x 3212.0pt>
 File: images/Lec_1_Q4_Soln.jpeg Graphic file (type jpg)
 <use images/Lec_1_Q4_Soln.jpeg>
-Package pdftex.def Info: images/Lec_1_Q4_Soln.jpeg  used on input line 97.
+Package pdftex.def Info: images/Lec_1_Q4_Soln.jpeg  used on input line 99.
 (pdftex.def)             Requested size: 426.79135pt x 682.52873pt.
 
-LaTeX Warning: Float too large for page by 1.74565pt on input line 99.
-
-<images/Lec_2_Q1.jpeg, id=161, 1737.49126pt x 923.45pt>
-File: images/Lec_2_Q1.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q1.jpeg>
-Package pdftex.def Info: images/Lec_2_Q1.jpeg  used on input line 106.
-(pdftex.def)             Requested size: 341.43437pt x 181.45995pt.
-<images/Lec_2_Q_1_Soln.jpeg, id=162, 2409.0pt x 669.50125pt>
-File: images/Lec_2_Q_1_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q_1_Soln.jpeg>
-Package pdftex.def Info: images/Lec_2_Q_1_Soln.jpeg  used on input line 113.
-(pdftex.def)             Requested size: 426.79135pt x 118.60489pt.
-
-
-[2 <./images/Lec_1_Q_1.jpeg> <./images/Lec_1_Q_1_testbench.png>]
-
-[3 <./images/Lec_1_Q_1_a_plot.png> <./images/Lec_1_Q_1_b_plot.png> <./images/Lec_1_Q_2_3_4.jpeg>]
-
-[4 <./images/Lec_1_Q2_Soln.jpeg>]
-
-[5 <./images/Lec_1_Q3_Soln.jpeg>]
-
-[6 <./images/Lec_1_Q4_Soln.jpeg>]
-<images/Lec_2_Q_1_testbench.png, id=197, 988.44281pt x 505.13719pt>
-File: images/Lec_2_Q_1_testbench.png Graphic file (type png)
-<use images/Lec_2_Q_1_testbench.png>
-Package pdftex.def Info: images/Lec_2_Q_1_testbench.png  used on input line 120.
-(pdftex.def)             Requested size: 426.79135pt x 218.10657pt.
-<images/Lec_2_Q_2.jpeg, id=198, 2409.0pt x 822.07124pt>
-File: images/Lec_2_Q_2.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q_2.jpeg>
-Package pdftex.def Info: images/Lec_2_Q_2.jpeg  used on input line 128.
-(pdftex.def)             Requested size: 341.43437pt x 116.50664pt.
-<images/Lec_2_Q2_Soln_Part_1.jpeg, id=199, 1968.35374pt x 1753.55125pt>
-File: images/Lec_2_Q2_Soln_Part_1.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q2_Soln_Part_1.jpeg>
-Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_1.jpeg  used on input line 135.
-(pdftex.def)             Requested size: 426.79135pt x 380.21701pt.
-<images/Lec_2_Q2_Soln_Part_2.jpeg, id=200, 2221.29875pt x 2216.28pt>
-File: images/Lec_2_Q2_Soln_Part_2.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q2_Soln_Part_2.jpeg>
-Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_2.jpeg  used on input line 141.
-(pdftex.def)             Requested size: 426.79135pt x 425.79823pt.
-<images/Lec_2_Q2_Soln_Part_3.jpeg, id=201, 2409.0pt x 848.16875pt>
-File: images/Lec_2_Q2_Soln_Part_3.jpeg Graphic file (type jpg)
-<use images/Lec_2_Q2_Soln_Part_3.jpeg>
-Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_3.jpeg  used on input line 147.
-(pdftex.def)             Requested size: 426.79135pt x 150.25658pt.
-<images/Lec_2_Q_2_testbench.png, id=202, 1029.8475pt x 548.0475pt>
-File: images/Lec_2_Q_2_testbench.png Graphic file (type png)
-<use images/Lec_2_Q_2_testbench.png>
-Package pdftex.def Info: images/Lec_2_Q_2_testbench.png  used on input line 154.
-(pdftex.def)             Requested size: 426.79135pt x 227.11769pt.
-<images/Lec_2_Q_2_a.png, id=203, 1356.56813pt x 622.57594pt>
-File: images/Lec_2_Q_2_a.png Graphic file (type png)
-<use images/Lec_2_Q_2_a.png>
-Package pdftex.def Info: images/Lec_2_Q_2_a.png  used on input line 160.
-(pdftex.def)             Requested size: 426.79135pt x 195.86546pt.
-<images/Lec_2_Q_2_b.png, id=204, 1338.50063pt x 621.82312pt>
-File: images/Lec_2_Q_2_b.png Graphic file (type png)
-<use images/Lec_2_Q_2_b.png>
-Package pdftex.def Info: images/Lec_2_Q_2_b.png  used on input line 166.
-(pdftex.def)             Requested size: 426.79135pt x 198.27583pt.
-<images/Lec_3_Q_1.jpeg, id=205, 2027.575pt x 1694.33pt>
-File: images/Lec_3_Q_1.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_3_Q_1.jpeg  used on input line 180.
-(pdftex.def)             Requested size: 341.43437pt x 285.31769pt.
-<images/Lec_3_Q1_Soln_1.jpeg, id=206, 2296.58pt x 2794.44pt>
-File: images/Lec_3_Q1_Soln_1.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q1_Soln_1.jpeg>
-Package pdftex.def Info: images/Lec_3_Q1_Soln_1.jpeg  used on input line 186.
-(pdftex.def)             Requested size: 426.79135pt x 519.3085pt.
-<images/Lec_3_Q1_Soln_2.jpeg, id=207, 2176.13pt x 1781.65625pt>
-File: images/Lec_3_Q1_Soln_2.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q1_Soln_2.jpeg>
-Package pdftex.def Info: images/Lec_3_Q1_Soln_2.jpeg  used on input line 192.
-(pdftex.def)             Requested size: 426.79135pt x 349.41974pt.
-<images/Lec_3_Q_2.jpeg, id=208, 1596.96625pt x 1171.37625pt>
-File: images/Lec_3_Q_2.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q_2.jpeg>
-Package pdftex.def Info: images/Lec_3_Q_2.jpeg  used on input line 201.
-(pdftex.def)             Requested size: 341.43437pt x 250.42896pt.
-<images/Lec_3_Q2_Soln.jpeg, id=209, 2387.92125pt x 3212.0pt>
-File: images/Lec_3_Q2_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q2_Soln.jpeg>
-Package pdftex.def Info: images/Lec_3_Q2_Soln.jpeg  used on input line 207.
-(pdftex.def)             Requested size: 426.79135pt x 574.06714pt.
-<images/Lec_3_Q_3.jpeg, id=210, 2409.0pt x 467.7475pt>
-File: images/Lec_3_Q_3.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q_3.jpeg>
-Package pdftex.def Info: images/Lec_3_Q_3.jpeg  used on input line 214.
-(pdftex.def)             Requested size: 341.43437pt x 66.2907pt.
-<images/Lec_3_Q3_Soln.jpeg, id=211, 2404.985pt x 2265.46375pt>
-File: images/Lec_3_Q3_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_3_Q3_Soln.jpeg>
-Package pdftex.def Info: images/Lec_3_Q3_Soln.jpeg  used on input line 219.
-(pdftex.def)             Requested size: 426.79135pt x 402.02757pt.
-
-
-[7 <./images/Lec_2_Q1.jpeg> <./images/Lec_2_Q_1_Soln.jpeg>]
-
-[8 <./images/Lec_2_Q_1_testbench.png> <./images/Lec_2_Q_2.jpeg>]
-
-[9 <./images/Lec_2_Q2_Soln_Part_1.jpeg>]
-
-[10 <./images/Lec_2_Q2_Soln_Part_2.jpeg> <./images/Lec_2_Q2_Soln_Part_3.jpeg>]
-
-[11 <./images/Lec_2_Q_2_testbench.png> <./images/Lec_2_Q_2_a.png>]
-
-[12 <./images/Lec_2_Q_2_b.png> <./images/Lec_3_Q_1.jpeg>]
-
-[13 <./images/Lec_3_Q1_Soln_1.jpeg>]
-
-[14 <./images/Lec_3_Q1_Soln_2.jpeg> <./images/Lec_3_Q_2.jpeg>]
-
-[15 <./images/Lec_3_Q2_Soln.jpeg>]
-<images/Lec_4_Q_1.jpeg, id=272, 1856.9375pt x 955.57pt>
-File: images/Lec_4_Q_1.jpeg Graphic file (type jpg)
-<use images/Lec_4_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_4_Q_1.jpeg  used on input line 227.
-(pdftex.def)             Requested size: 341.43437pt x 175.6987pt.
-<images/Lec_4_Q1_Soln.jpeg, id=273, 1976.38374pt x 1912.14375pt>
-File: images/Lec_4_Q1_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_4_Q1_Soln.jpeg>
-Package pdftex.def Info: images/Lec_4_Q1_Soln.jpeg  used on input line 232.
-(pdftex.def)             Requested size: 426.79135pt x 412.91187pt.
-<images/Lec_4_Q_2_3.jpeg, id=274, 2409.0pt x 431.6125pt>
-File: images/Lec_4_Q_2_3.jpeg Graphic file (type jpg)
-<use images/Lec_4_Q_2_3.jpeg>
-Package pdftex.def Info: images/Lec_4_Q_2_3.jpeg  used on input line 239.
-(pdftex.def)             Requested size: 341.43437pt x 61.16954pt.
-<images/Lec_4_Q2_Soln.jpeg, id=275, 2409.0pt x 1270.7475pt>
-File: images/Lec_4_Q2_Soln.jpeg Graphic file (type jpg)
-<use images/Lec_4_Q2_Soln.jpeg>
-Package pdftex.def Info: images/Lec_4_Q2_Soln.jpeg  used on input line 244.
-(pdftex.def)             Requested size: 426.79135pt x 225.11813pt.
-<images/Lec_5_Q_1.jpeg, id=276, 2409.0pt x 1764.5925pt>
-File: images/Lec_5_Q_1.jpeg Graphic file (type jpg)
-<use images/Lec_5_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_5_Q_1.jpeg  used on input line 259.
-(pdftex.def)             Requested size: 341.43437pt x 250.08385pt.
-<images/Lec_5_Q_2_ckt.jpeg, id=277, 2409.0pt x 553.06625pt>
-File: images/Lec_5_Q_2_ckt.jpeg Graphic file (type jpg)
-<use images/Lec_5_Q_2_ckt.jpeg>
-Package pdftex.def Info: images/Lec_5_Q_2_ckt.jpeg  used on input line 270.
-(pdftex.def)             Requested size: 341.43437pt x 78.38235pt.
-<images/Lec_5_Q_2_ques.jpeg, id=278, 2298.5875pt x 1183.42125pt>
-File: images/Lec_5_Q_2_ques.jpeg Graphic file (type jpg)
-<use images/Lec_5_Q_2_ques.jpeg>
-Package pdftex.def Info: images/Lec_5_Q_2_ques.jpeg  used on input line 275.
-(pdftex.def)             Requested size: 426.79135pt x 219.72403pt.
-<images/Lec_6_Q_1.jpeg, id=279, 2409.0pt x 819.06pt>
-File: images/Lec_6_Q_1.jpeg Graphic file (type jpg)
-<use images/Lec_6_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_6_Q_1.jpeg  used on input line 283.
-(pdftex.def)             Requested size: 341.43437pt x 116.07986pt.
-<images/Lec_6_Q_2.jpeg, id=280, 1966.34625pt x 803.0pt>
-File: images/Lec_6_Q_2.jpeg Graphic file (type jpg)
-<use images/Lec_6_Q_2.jpeg>
-Package pdftex.def Info: images/Lec_6_Q_2.jpeg  used on input line 290.
-(pdftex.def)             Requested size: 341.43437pt x 139.42435pt.
-<images/Lec_7_Q_1_2_3.jpeg, id=281, 2409.0pt x 3015.265pt>
-File: images/Lec_7_Q_1_2_3.jpeg Graphic file (type jpg)
-<use images/Lec_7_Q_1_2_3.jpeg>
-Package pdftex.def Info: images/Lec_7_Q_1_2_3.jpeg  used on input line 312.
-(pdftex.def)             Requested size: 341.43437pt x 427.33327pt.
-
-
-[16 <./images/Lec_3_Q_3.jpeg>]
-
-[17 <./images/Lec_3_Q3_Soln.jpeg> <./images/Lec_4_Q_1.jpeg>]
-
-[18 <./images/Lec_4_Q1_Soln.jpeg> <./images/Lec_4_Q_2_3.jpeg>]
-
-[19 <./images/Lec_4_Q2_Soln.jpeg> <./images/Lec_5_Q_1.jpeg> <./images/Lec_5_Q_2_ckt.jpeg>]
-
-[20 <./images/Lec_5_Q_2_ques.jpeg> <./images/Lec_6_Q_1.jpeg> <./images/Lec_6_Q_2.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 
 
-[21]
+[6 <./images/Lec_1_Q3_Soln.jpeg>]
+Overfull \vbox (1.74565pt too high) has occurred while \output is active []
 
-[22 <./images/Lec_7_Q_1_2_3.jpeg>]
 
-[23] (main.aux)
+
+[7 <./images/Lec_1_Q4_Soln.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 104.
+
+<images/Lec_2_Q_1_Soln.jpeg, id=350, 2409.0pt x 669.50125pt>
+File: images/Lec_2_Q_1_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q_1_Soln.jpeg>
+Package pdftex.def Info: images/Lec_2_Q_1_Soln.jpeg  used on input line 108.
+(pdftex.def)             Requested size: 426.79135pt x 118.60489pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+
+ []
+
+<images/Lec_2_Q1.jpeg, id=351, 1737.49126pt x 923.45pt>
+File: images/Lec_2_Q1.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q1.jpeg>
+Package pdftex.def Info: images/Lec_2_Q1.jpeg  used on input line 114.
+(pdftex.def)             Requested size: 341.43437pt x 181.45995pt.
+<images/Lec_2_Q_1_testbench.png, id=352, 988.44281pt x 505.13719pt>
+File: images/Lec_2_Q_1_testbench.png Graphic file (type png)
+<use images/Lec_2_Q_1_testbench.png>
+Package pdftex.def Info: images/Lec_2_Q_1_testbench.png  used on input line 124.
+(pdftex.def)             Requested size: 426.79135pt x 218.10657pt.
+
+
+[8 <./images/Lec_2_Q_1_Soln.jpeg> <./images/Lec_2_Q1.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 128.
+
+<images/Lec_2_Q_2.jpeg, id=360, 2409.0pt x 822.07124pt>
+File: images/Lec_2_Q_2.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q_2.jpeg>
+Package pdftex.def Info: images/Lec_2_Q_2.jpeg  used on input line 132.
+(pdftex.def)             Requested size: 341.43437pt x 116.50664pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+
+ []
+
+<images/Lec_2_Q2_Soln_Part_1.jpeg, id=361, 1968.35374pt x 1753.55125pt>
+File: images/Lec_2_Q2_Soln_Part_1.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q2_Soln_Part_1.jpeg>
+Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_1.jpeg  used on input line 139.
+(pdftex.def)             Requested size: 426.79135pt x 380.21701pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--141
+
+ []
+
+
+
+[9 <./images/Lec_2_Q_1_testbench.png> <./images/Lec_2_Q_2.jpeg>]
+<images/Lec_2_Q2_Soln_Part_2.jpeg, id=369, 2221.29875pt x 2216.28pt>
+File: images/Lec_2_Q2_Soln_Part_2.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q2_Soln_Part_2.jpeg>
+Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_2.jpeg  used on input line 145.
+(pdftex.def)             Requested size: 426.79135pt x 425.79823pt.
+
+
+[10 <./images/Lec_2_Q2_Soln_Part_1.jpeg>]
+<images/Lec_2_Q2_Soln_Part_3.jpeg, id=375, 2409.0pt x 848.16875pt>
+File: images/Lec_2_Q2_Soln_Part_3.jpeg Graphic file (type jpg)
+<use images/Lec_2_Q2_Soln_Part_3.jpeg>
+Package pdftex.def Info: images/Lec_2_Q2_Soln_Part_3.jpeg  used on input line 151.
+(pdftex.def)             Requested size: 426.79135pt x 150.25658pt.
+<images/Lec_2_Q_2_testbench.png, id=376, 1029.8475pt x 548.0475pt>
+File: images/Lec_2_Q_2_testbench.png Graphic file (type png)
+<use images/Lec_2_Q_2_testbench.png>
+Package pdftex.def Info: images/Lec_2_Q_2_testbench.png  used on input line 158.
+(pdftex.def)             Requested size: 426.79135pt x 227.11769pt.
+
+
+[11 <./images/Lec_2_Q2_Soln_Part_2.jpeg> <./images/Lec_2_Q2_Soln_Part_3.jpeg>]
+<images/Lec_2_Q_2_a.png, id=383, 1356.56813pt x 622.57594pt>
+File: images/Lec_2_Q_2_a.png Graphic file (type png)
+<use images/Lec_2_Q_2_a.png>
+Package pdftex.def Info: images/Lec_2_Q_2_a.png  used on input line 164.
+(pdftex.def)             Requested size: 426.79135pt x 195.86546pt.
+<images/Lec_2_Q_2_b.png, id=384, 1338.50063pt x 621.82312pt>
+File: images/Lec_2_Q_2_b.png Graphic file (type png)
+<use images/Lec_2_Q_2_b.png>
+Package pdftex.def Info: images/Lec_2_Q_2_b.png  used on input line 170.
+(pdftex.def)             Requested size: 426.79135pt x 198.27583pt.
+
+
+[12 <./images/Lec_2_Q_2_testbench.png> <./images/Lec_2_Q_2_a.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 175.
+
+<images/Lec_3_Q_1.jpeg, id=393, 2027.575pt x 1694.33pt>
+File: images/Lec_3_Q_1.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q_1.jpeg>
+Package pdftex.def Info: images/Lec_3_Q_1.jpeg  used on input line 184.
+(pdftex.def)             Requested size: 341.43437pt x 285.31769pt.
+<images/Lec_3_Q1_Soln_1.jpeg, id=394, 2296.58pt x 2794.44pt>
+File: images/Lec_3_Q1_Soln_1.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q1_Soln_1.jpeg>
+Package pdftex.def Info: images/Lec_3_Q1_Soln_1.jpeg  used on input line 190.
+(pdftex.def)             Requested size: 426.79135pt x 519.3085pt.
+
+
+[13 <./images/Lec_2_Q_2_b.png> <./images/Lec_3_Q_1.jpeg>]
+<images/Lec_3_Q1_Soln_2.jpeg, id=404, 2176.13pt x 1781.65625pt>
+File: images/Lec_3_Q1_Soln_2.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q1_Soln_2.jpeg>
+Package pdftex.def Info: images/Lec_3_Q1_Soln_2.jpeg  used on input line 196.
+(pdftex.def)             Requested size: 426.79135pt x 349.41974pt.
+
+
+[14 <./images/Lec_3_Q1_Soln_1.jpeg>]
+Overfull \hbox (47.27747pt too wide) in paragraph at lines 201--201
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 201.
+
+<images/Lec_3_Q_2.jpeg, id=410, 1596.96625pt x 1171.37625pt>
+File: images/Lec_3_Q_2.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q_2.jpeg>
+Package pdftex.def Info: images/Lec_3_Q_2.jpeg  used on input line 205.
+(pdftex.def)             Requested size: 341.43437pt x 250.42896pt.
+
+
+[15 <./images/Lec_3_Q1_Soln_2.jpeg>]
+<images/Lec_3_Q2_Soln.jpeg, id=417, 2387.92125pt x 3212.0pt>
+File: images/Lec_3_Q2_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q2_Soln.jpeg>
+Package pdftex.def Info: images/Lec_3_Q2_Soln.jpeg  used on input line 211.
+(pdftex.def)             Requested size: 426.79135pt x 574.06714pt.
+
+
+[16 <./images/Lec_3_Q_2.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 214.
+
+<images/Lec_3_Q_3.jpeg, id=423, 2409.0pt x 467.7475pt>
+File: images/Lec_3_Q_3.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q_3.jpeg>
+Package pdftex.def Info: images/Lec_3_Q_3.jpeg  used on input line 218.
+(pdftex.def)             Requested size: 341.43437pt x 66.2907pt.
+<images/Lec_3_Q3_Soln.jpeg, id=424, 2404.985pt x 2265.46375pt>
+File: images/Lec_3_Q3_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_3_Q3_Soln.jpeg>
+Package pdftex.def Info: images/Lec_3_Q3_Soln.jpeg  used on input line 223.
+(pdftex.def)             Requested size: 426.79135pt x 402.02757pt.
+
+
+[17 <./images/Lec_3_Q2_Soln.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 227.
+
+<images/Lec_4_Q_1.jpeg, id=430, 1856.9375pt x 955.57pt>
+File: images/Lec_4_Q_1.jpeg Graphic file (type jpg)
+<use images/Lec_4_Q_1.jpeg>
+Package pdftex.def Info: images/Lec_4_Q_1.jpeg  used on input line 231.
+(pdftex.def)             Requested size: 341.43437pt x 175.6987pt.
+<images/Lec_4_Q1_Soln.jpeg, id=431, 1976.38374pt x 1912.14375pt>
+File: images/Lec_4_Q1_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_4_Q1_Soln.jpeg>
+Package pdftex.def Info: images/Lec_4_Q1_Soln.jpeg  used on input line 236.
+(pdftex.def)             Requested size: 426.79135pt x 412.91187pt.
+
+
+[18 <./images/Lec_3_Q_3.jpeg> <./images/Lec_3_Q3_Soln.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 239.
+
+<images/Lec_4_Q_2_3.jpeg, id=438, 2409.0pt x 431.6125pt>
+File: images/Lec_4_Q_2_3.jpeg Graphic file (type jpg)
+<use images/Lec_4_Q_2_3.jpeg>
+Package pdftex.def Info: images/Lec_4_Q_2_3.jpeg  used on input line 243.
+(pdftex.def)             Requested size: 341.43437pt x 61.16954pt.
+
+
+[19 <./images/Lec_4_Q_1.jpeg> <./images/Lec_4_Q1_Soln.jpeg>]
+<images/Lec_4_Q2_Soln.jpeg, id=446, 2409.0pt x 1270.7475pt>
+File: images/Lec_4_Q2_Soln.jpeg Graphic file (type jpg)
+<use images/Lec_4_Q2_Soln.jpeg>
+Package pdftex.def Info: images/Lec_4_Q2_Soln.jpeg  used on input line 250.
+(pdftex.def)             Requested size: 426.79135pt x 225.11813pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--252
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 253.
+
+<images/Lec_4_Q3_Soln.png, id=447, 1188.69093pt x 644.4075pt>
+File: images/Lec_4_Q3_Soln.png Graphic file (type png)
+<use images/Lec_4_Q3_Soln.png>
+Package pdftex.def Info: images/Lec_4_Q3_Soln.png  used on input line 262.
+(pdftex.def)             Requested size: 341.43437pt x 185.09364pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--264
+
+ []
+
+
+
+[20 <./images/Lec_4_Q_2_3.jpeg> <./images/Lec_4_Q2_Soln.jpeg>]
+<images/Lec_5_Q_1.jpeg, id=454, 2409.0pt x 1764.5925pt>
+File: images/Lec_5_Q_1.jpeg Graphic file (type jpg)
+<use images/Lec_5_Q_1.jpeg>
+Package pdftex.def Info: images/Lec_5_Q_1.jpeg  used on input line 275.
+(pdftex.def)             Requested size: 341.43437pt x 250.08385pt.
+<images/Lec_5_Q1_1_Soln.png, id=455, 1329.46687pt x 633.86812pt>
+File: images/Lec_5_Q1_1_Soln.png Graphic file (type png)
+<use images/Lec_5_Q1_1_Soln.png>
+Package pdftex.def Info: images/Lec_5_Q1_1_Soln.png  used on input line 281.
+(pdftex.def)             Requested size: 426.79135pt x 203.48996pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--283
+
+ []
+
+<images/Lec_5_Q1_2_Soln.png, id=456, 1334.73656pt x 633.86812pt>
+File: images/Lec_5_Q1_2_Soln.png Graphic file (type png)
+<use images/Lec_5_Q1_2_Soln.png>
+Package pdftex.def Info: images/Lec_5_Q1_2_Soln.png  used on input line 286.
+(pdftex.def)             Requested size: 426.79135pt x 202.67752pt.
+
+
+[21 <./images/Lec_4_Q3_Soln.png> <./images/Lec_5_Q_1.jpeg>]
+<images/Lec_5_Q_2_ckt.jpeg, id=467, 2409.0pt x 553.06625pt>
+File: images/Lec_5_Q_2_ckt.jpeg Graphic file (type jpg)
+<use images/Lec_5_Q_2_ckt.jpeg>
+Package pdftex.def Info: images/Lec_5_Q_2_ckt.jpeg  used on input line 298.
+(pdftex.def)             Requested size: 341.43437pt x 78.38235pt.
+<images/Lec_5_Q_2_ques.jpeg, id=468, 2298.5875pt x 1183.42125pt>
+File: images/Lec_5_Q_2_ques.jpeg Graphic file (type jpg)
+<use images/Lec_5_Q_2_ques.jpeg>
+Package pdftex.def Info: images/Lec_5_Q_2_ques.jpeg  used on input line 303.
+(pdftex.def)             Requested size: 426.79135pt x 219.72403pt.
+
+
+[22 <./images/Lec_5_Q1_1_Soln.png> <./images/Lec_5_Q1_2_Soln.png> <./images/Lec_5_Q_2_ckt.jpeg>]
+<images/Lec_6_Q_1.jpeg, id=480, 2409.0pt x 819.06pt>
+File: images/Lec_6_Q_1.jpeg Graphic file (type jpg)
+<use images/Lec_6_Q_1.jpeg>
+Package pdftex.def Info: images/Lec_6_Q_1.jpeg  used on input line 311.
+(pdftex.def)             Requested size: 341.43437pt x 116.07986pt.
+<images/Lec_6_Q_2.jpeg, id=481, 1966.34625pt x 803.0pt>
+File: images/Lec_6_Q_2.jpeg Graphic file (type jpg)
+<use images/Lec_6_Q_2.jpeg>
+Package pdftex.def Info: images/Lec_6_Q_2.jpeg  used on input line 318.
+(pdftex.def)             Requested size: 341.43437pt x 139.42435pt.
+
+
+[23 <./images/Lec_5_Q_2_ques.jpeg> <./images/Lec_6_Q_1.jpeg>]
+<images/Lec_7_Q_1_2_3.jpeg, id=488, 2409.0pt x 3015.265pt>
+File: images/Lec_7_Q_1_2_3.jpeg Graphic file (type jpg)
+<use images/Lec_7_Q_1_2_3.jpeg>
+Package pdftex.def Info: images/Lec_7_Q_1_2_3.jpeg  used on input line 345.
+(pdftex.def)             Requested size: 341.43437pt x 427.33327pt.
+
+
+[24 <./images/Lec_6_Q_2.jpeg>]
+Overfull \hbox (54.72565pt too wide) in paragraph at lines 364--364
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 364.
+
+
+
+[25 <./images/Lec_7_Q_1_2_3.jpeg>]
+
+[26]
+<images/Lec_8_Q1_ckt.jpeg, id=507, 2061.7025pt x 911.405pt>
+File: images/Lec_8_Q1_ckt.jpeg Graphic file (type jpg)
+<use images/Lec_8_Q1_ckt.jpeg>
+Package pdftex.def Info: images/Lec_8_Q1_ckt.jpeg  used on input line 433.
+(pdftex.def)             Requested size: 341.43437pt x 150.93161pt.
+<images/Lec_8_Q1.jpeg, id=508, 2409.0pt x 1946.27126pt>
+File: images/Lec_8_Q1.jpeg Graphic file (type jpg)
+<use images/Lec_8_Q1.jpeg>
+Package pdftex.def Info: images/Lec_8_Q1.jpeg  used on input line 438.
+(pdftex.def)             Requested size: 426.79135pt x 344.78995pt.
+
+
+[27]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 441.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 441.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 441.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 442.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 442.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 442.
+
+<images/Lec_9_Q1.jpeg, id=513, 2389.92876pt x 690.58pt>
+File: images/Lec_9_Q1.jpeg Graphic file (type jpg)
+<use images/Lec_9_Q1.jpeg>
+Package pdftex.def Info: images/Lec_9_Q1.jpeg  used on input line 449.
+(pdftex.def)             Requested size: 341.43437pt x 98.65103pt.
+
+
+[28 <./images/Lec_8_Q1_ckt.jpeg> <./images/Lec_8_Q1.jpeg>]
+<images/Lec_9_Q2.jpeg, id=520, 1028.84375pt x 760.8425pt>
+File: images/Lec_9_Q2.jpeg Graphic file (type jpg)
+<use images/Lec_9_Q2.jpeg>
+Package pdftex.def Info: images/Lec_9_Q2.jpeg  used on input line 455.
+(pdftex.def)             Requested size: 341.43437pt x 252.49516pt.
+<images/Lec_10_Q1.jpeg, id=521, 1439.3775pt x 1534.73375pt>
+File: images/Lec_10_Q1.jpeg Graphic file (type jpg)
+<use images/Lec_10_Q1.jpeg>
+Package pdftex.def Info: images/Lec_10_Q1.jpeg  used on input line 463.
+(pdftex.def)             Requested size: 341.43437pt x 364.0581pt.
+
+
+[29 <./images/Lec_9_Q1.jpeg> <./images/Lec_9_Q2.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 467.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 467.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 467.
+
+<images/Lec_10_Q2.jpeg, id=530, 2409.0pt x 528.97626pt>
+File: images/Lec_10_Q2.jpeg Graphic file (type jpg)
+<use images/Lec_10_Q2.jpeg>
+Package pdftex.def Info: images/Lec_10_Q2.jpeg  used on input line 470.
+(pdftex.def)             Requested size: 341.43437pt x 74.96825pt.
+<images/Lec_10_Q3.jpeg, id=531, 2272.49pt x 361.35pt>
+File: images/Lec_10_Q3.jpeg Graphic file (type jpg)
+<use images/Lec_10_Q3.jpeg>
+Package pdftex.def Info: images/Lec_10_Q3.jpeg  used on input line 477.
+(pdftex.def)             Requested size: 341.43437pt x 54.28838pt.
+
+
+[30 <./images/Lec_10_Q1.jpeg> <./images/Lec_10_Q2.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 481.
+
+<images/Lec_10_Q4.jpeg, id=538, 2348.775pt x 759.83875pt>
+File: images/Lec_10_Q4.jpeg Graphic file (type jpg)
+<use images/Lec_10_Q4.jpeg>
+Package pdftex.def Info: images/Lec_10_Q4.jpeg  used on input line 484.
+(pdftex.def)             Requested size: 341.43437pt x 110.44626pt.
+<images/Lec_11_Questions.jpeg, id=539, 2061.7025pt x 1969.3575pt>
+File: images/Lec_11_Questions.jpeg Graphic file (type jpg)
+<use images/Lec_11_Questions.jpeg>
+Package pdftex.def Info: images/Lec_11_Questions.jpeg  used on input line 491.
+(pdftex.def)             Requested size: 341.43437pt x 326.13196pt.
+<images/Lec_12_Q1.jpeg, id=540, 3212.0pt x 904.37875pt>
+File: images/Lec_12_Q1.jpeg Graphic file (type jpg)
+<use images/Lec_12_Q1.jpeg>
+Package pdftex.def Info: images/Lec_12_Q1.jpeg  used on input line 501.
+(pdftex.def)             Requested size: 341.43437pt x 96.12865pt.
+
+
+[31 <./images/Lec_10_Q3.jpeg> <./images/Lec_10_Q4.jpeg> <./images/Lec_11_Questions.jpeg>]
+<images/Lec_12_Q2.jpeg, id=549, 2169.10374pt x 1354.05875pt>
+File: images/Lec_12_Q2.jpeg Graphic file (type jpg)
+<use images/Lec_12_Q2.jpeg>
+Package pdftex.def Info: images/Lec_12_Q2.jpeg  used on input line 507.
+(pdftex.def)             Requested size: 341.43437pt x 213.12074pt.
+
+
+[32 <./images/Lec_12_Q1.jpeg> <./images/Lec_12_Q2.jpeg>]
+<images/Lec_15_Q.png, id=556, 1284.8pt x 831.105pt>
+File: images/Lec_15_Q.png Graphic file (type png)
+<use images/Lec_15_Q.png>
+Package pdftex.def Info: images/Lec_15_Q.png  used on input line 527.
+(pdftex.def)             Requested size: 341.43437pt x 220.86317pt.
+<images/Lec_16_Q.png, id=557, 1120.185pt x 419.5675pt>
+File: images/Lec_16_Q.png Graphic file (type png)
+<use images/Lec_16_Q.png>
+Package pdftex.def Info: images/Lec_16_Q.png  used on input line 535.
+(pdftex.def)             Requested size: 341.43437pt x 127.88786pt.
+
+
+[33 <./images/Lec_15_Q.png (PNG copy)> <./images/Lec_16_Q.png (PNG copy)>] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 48BADAD8AACE388C0F25F3F56AF0FD99;6022.
+(rerunfilecheck)             Checksum: 5FF36B71C723FFA2EFE482D81D7E7154;13978.
  ) 
 Here is how much of TeX's memory you used:
- 24564 strings out of 468225
- 462621 string characters out of 5432973
- 859449 words of memory out of 5000000
- 52568 multiletter control sequences out of 15000+600000
- 643403 words of font info for 82 fonts, out of 8000000 for 9000
+ 24767 strings out of 468225
+ 467091 string characters out of 5432973
+ 861421 words of memory out of 5000000
+ 52713 multiletter control sequences out of 15000+600000
+ 644937 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,101p,543b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (23 pages, 4326573 bytes).
+ 99i,10n,101p,597b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (33 pages, 5874409 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 716 words of extra memory for PDF output out of 10000 (max. 10000000)
 

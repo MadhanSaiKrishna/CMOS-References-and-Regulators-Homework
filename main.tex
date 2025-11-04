@@ -23,6 +23,8 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=false, allcolors=blue]{hyperref}
 \usepackage{textcomp}
+\usepackage{xcolor}
+
 
 \title{\textbf{CMOS References and Regulators: Homework}}
 \author{Chamarthy Madhan Sai Krishna\\2023102030}
@@ -35,9 +37,9 @@
 
 \section{Lecture 1}
 
-\subsection{Proving Resistance: Current is proportional to Voltage}
+\subsection{\colorbox{yellow}{Proving Resistance: Current is proportional to Voltage}}
 Do the 'DC Analysis' for the following circuits. Plot V vs I $\&$ write expression for the slope. Prove that its a resistance.\\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_1_Q_1.jpeg}
     \caption{Lecture 1 - Question 1 - (a) and (b)}
@@ -47,205 +49,219 @@ Left graph shows the I - V characteristics of the device. Clearly, $I \propto V$
 Plot for (a) : Using a Voltage source \\
 Plot for (b) : Using a Current source
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q_1_testbench.png}
-    \caption{Testbench for (a) and (b)}
+    \caption{Lec 1: Q1: Testbench for (a) and (b)}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q_1_a_plot.png}
-    \caption{Plot for (a)}
+    \caption{Lec 1: Q1: Plot for (a)}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q_1_b_plot.png}
-    \caption{Plot for (b)}
+    \caption{Lec 1: Q1: Plot for (b)}
 \end{figure}
 
-\subsection{Capacitance Amplifier using Controlled Sources}
+\subsection{\colorbox{yellow}{Capacitance Amplifier using Controlled Sources}}
 Design a capacitance amplifier using controlled sources.\\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_1_Q_2_3_4.jpeg}
     \caption{Lecture 1 - Question 2, 3, 4}
 \end{figure}
 \textit{Answer: }\\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q2_Soln.jpeg}
-    \caption{Question 2 - Solution}
+    \caption{Lecture 1 - Question 2 - Solution}
 \end{figure}
-\subsection{Inductance Amplifier using Controlled Sources}
+\subsection{\colorbox{yellow}{Inductance Amplifier using Controlled Sources}}
 Design a inductance amplifier using controlled sources.\\
 
 \textit{Answer: }\\
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q3_Soln.jpeg}
-    \caption{Question 3 - Solution}
+    \caption{Lecture 1 - Question 3 - Solution}
 \end{figure}
 
-\subsection{Resistance Amplifier using Controlled Sources}
+\subsection{\colorbox{yellow}{Resistance Amplifier using Controlled Sources}}
 Sweep V vs I for (i) $k>1$ (ii) $0<k<1$ (iii) $K<0$ Prove $R_{eff}$ in each case is $\frac{R}{1-k}$.\\
 \textit{Answer: }\\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_1_Q4_Soln.jpeg}
-    \caption{Question 4 - Solution}
+    \caption{Lecture 1 - Question 4 - Solution}
 \end{figure}
 
 \section{Lecture 2}
-\subsection{Output Resistance}
+\subsection{\colorbox{yellow}{Output Resistance}}
 find the effective output resistance at $V_{out}$ i.e., $R_{out} = ?$ \\
-\begin{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_2_Q_1_Soln.jpeg}
+    \caption{Lec 2: Question 1}
+\end{figure}
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_2_Q1.jpeg}
-    \caption{Lecture 2 - Question 1}
+    \caption{Lecture 2 - Question 1 - Solution}
 \end{figure}
 \textit{Answer:}\\
 When we nullify the V1, the vccs vanish and the effective output resistance at vout node is $R_{out} = r_{ds_1} || r_{ds_2}$. 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{images/Lec_2_Q_1_Soln.jpeg}
-    \caption{Solution for Question 1}
-\end{figure}
+
 Proved this using the plot with values.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q_1_testbench.png}
-    \caption{Testbench}
+    \caption{Lec 2: Q1: Testbench}
 \end{figure}
 
-\subsection{Step Response for RC Circuit}
+\subsection{\colorbox{yellow}{Step Response for RC Circuit}}
 Plot $V_{out}$ vs time in Cadence. Prove Theory. \\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_2_Q_2.jpeg}
     \caption{Lecture 2 - Question 2}
 \end{figure}
 \textit{Answer:}\\
 Copy this from the notes\\
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_1.jpeg}
-    \caption{Solution for Question 2}
+    \caption{Lec 2: Solution for Question 2}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_2.jpeg}
-    \caption{Solution for Question 2}
+    \caption{Lec 2: Solution for Question 2}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q2_Soln_Part_3.jpeg}
-    \caption{Solution for Question 2}
+    \caption{Lec 2: Solution for Question 2}
 \end{figure}
 Proved this using theory and from the simulations  by finding the output voltage after 1 time constant.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q_2_testbench.png}
-    \caption{Question 2 Testbench}
+    \caption{Lec 2: uestion 2 Testbench}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q_2_a.png}
-    \caption{Part (a)}
+    \caption{Lec 2: Q2: Soln - Part (a)}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_2_Q_2_b.png}
-    \caption{Part (b)}
+    \caption{Lec 2 : Q2: Soln - Part (b)}
 \end{figure}
 
 \section{Lecture 3}
-\subsection{Step Response for passive RLC circuit Combinations}
+\subsection{\colorbox{yellow}{Step Response for passive RLC circuit Combinations}}
 Plot $V_{out}$ vs $time$ and $I_{out}$ vs $time$
 \begin{itemize}
     \item 
     \item 
     \item 
 \end{itemize}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_1.jpeg}
     \caption{Lecture 3 - Question 1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_3_Q1_Soln_1.jpeg}
-    \caption{Solution for Question 1}
+    \caption{Lec 3: Solution for Question 1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_3_Q1_Soln_2.jpeg}
-    \caption{Solution for Question 1}
+    \caption{Lec 3: Solution for Question 1}
 \end{figure}
 
 
-\subsection{Pulse Response for RC Circuit with varying Duty Cycle and Time Period}
+\subsection{\colorbox{yellow}{Pulse Response for RC Circuit with varying Duty Cycle and Time Period}}
 Plot $V_{out}$ vs $time$ (a) $D = 10\%$ (b) $D = 90\%$ (i) $T = 0.1RC$ (ii) $T = 10RC$ where $D = \frac{T_{ON}}{T}$
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_2.jpeg}
     \caption{Lecture 3 - Question 2}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_3_Q2_Soln.jpeg}
-    \caption{Solution for Question 2}
+    \caption{Lec 3: Solution for Question 2}
 \end{figure}
-\subsection{Bode Plot for a given Transfer Function}
+\subsection{\colorbox{yellow}{Bode Plot for a given Transfer Function}}
 Draw Bode plot for $H(s) = \frac{(s - z_1)(s+z_2)}{(s+P_1)(s+P_2)(s+P_3)}$ where (i) $z_2 << p_1 << p_2 << p_3 << z_1$ (ii) $p_3 << p_2 << p_1 << z_1 << z_2$
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_3_Q_3.jpeg}
     \caption{Lecture 3 - Question 3}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_3_Q3_Soln.jpeg}
-    \caption{Solution for Question 3}
+    \caption{Lec 3: Solution for Question 3}
 \end{figure}
 \section{Lecture 4}
-\subsection{Non-inverting Schimtt Trigger}
+\subsection{\colorbox{yellow}{Non-inverting Schimtt Trigger}}
 Design a non-inverting schimtt trigger using opamp based circuits.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_4_Q_1.jpeg}
     \caption{Lecture 4 - Question 1}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_4_Q1_Soln.jpeg}
-    \caption{Solution for Question 1}
+    \caption{Lec 4: Solution for Question 1}
 \end{figure}
-\subsection{Expression for Closed loop Unity gain bandwidth}
+\subsection{\colorbox{green}{Expression for Closed loop Unity gain bandwidth}}
 Find the expression for Closed loop Unity gain bandwidth.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_4_Q_2_3.jpeg}
     \caption{Lecture 4 - Question 2,3}
 \end{figure}
-\begin{figure}
+\textbf{Answer:}\\
+Assuming a single pole system, the below image shows the closed loop unity gain bandwidth.\\
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_4_Q2_Soln.jpeg}
-    \caption{Solution for Question 2}
+    \caption{Lec 4: Solution for Question 2}
 \end{figure}
-\subsection{Non-Inverting Amplifier using Opamp and VCVS}
+\subsection{\colorbox{yellow}{Non-Inverting Amplifier using VCVS}}
 In cadence, Plot $V_o$ vs $V_{in}$ (Sweep $V_{in}$ from $-V_{ss}$ to $V_{DD}$) for non-inverting amplifier using Opamp and VCVS for both positive and -ve feedback.
+
+\textbf{Answer:}\\
+A non--inverting amplifier using postivie feedback is not possible. Due to positive feedback, the output will saturate to either $V_{DD}$ or $V_{SS}$ for any non-zero input.\\
+For negative feedback, the output voltage is given by\\ $V_{out} = V_{in} \cdot (1 + \frac{R_2}{R_1})$.\\
+For the non-inverting amplifier we can use either an opamp or a VCVS.\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_4_Q3_Soln.png}
+    \caption{Lecture 4 - Question 3 Solution: Non-inverting Amplifier using VCVS}
+\end{figure}
 \section{Lecture 5}
 \subsection{Single Pole Opamp with Feedback - Bode Plot}
 In Cadence, Bode Plot for 
@@ -254,23 +270,35 @@ In Cadence, Bode Plot for
     \item A = 1000, check $V_x$ (offset) [DC]
     \item UGB = 1MHz, Gain = 1000, Design $G_m$, $R_{out}$, $R_{1}$, $R_{2}$, $C$, $V_{Ref} = 0.6V$, $V_{out} = 1.2V$
 \end{enumerate}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_5_Q_1.jpeg}
     \caption{Lecture 5 - Question 1}
 \end{figure}
+\textbf{Answer:}\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_5_Q1_1_Soln.png}
+    \caption{Lec 5: Solution for Question 1\_1)}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_5_Q1_2_Soln.png}
+    \caption{Lec 5: Solution for Question 1\_2}
+\end{figure}
+
 \subsection{Bode Plot for a 2 Pole System}
 In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
 \begin{enumerate}
     \item $G_{m_1} = G_{m_2} = 10 \mu F$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$
     \item add $C_{effective}$ at $C_1$ and get phase margin = $45^\circ$
 \end{enumerate}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_5_Q_2_ckt.jpeg}
     \caption{Lecture 5 - Question 2 - circuit}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_5_Q_2_ques.jpeg}
     \caption{Lecture 5 - Question 2 - Question}
@@ -278,20 +306,25 @@ In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
 \section{Lecture 6}
 \subsection{Miller compensation - Bode Plot}
 Draw Bode plot for miller compensated circuit. \\ $G_{m_1} = G_{m_2} = 10 \mu S$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$ \\ Find Phase Margin, Unity Gain Bandwidth and DC Gain. (Theory + Cadence) (AC analysis/STB)
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_6_Q_1.jpeg}
     \caption{Lecture 6 - Question 1}
 \end{figure}
 \subsection{Adding a zero to a system}
 Simulate in cadence.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_6_Q_2.jpeg}
     \caption{Lecture 6 - Question 2}
 \end{figure}
 \section{Lecture 7}
 \subsection{Characterization of Resistors in TSMC 180nm}
+% There were 3 types of resistors in general. 
+% Poly resistors 
+% N well or p well resistors
+% Metal resistors
+% Choose few of them randomly and try these
 TSMC 18 lib, Simulate all the resistors $-40^\circ$ to $125^\circ$ (SS, TT, FF)
 TSMC 18 lib, Simulate all the resistors $-40^\circ$ to $125^\circ$ (SS, TT, FF)
 \begin{table}[ht]
@@ -307,7 +340,7 @@ R3 & Value & TypeC & Spread3 & Linear3 & Area3 \\
 \end{tabular}
 \caption{Resistor characteristics under different conditions}
 \end{table}
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_7_Q_1_2_3.jpeg}
     \caption{Lecture 7 - Question 1,2,3}
@@ -328,25 +361,179 @@ C3 & Value & TypeC & Spread3 & Linear3 & Area3 \\
 \caption{Resistor characteristics under different conditions}
 \end{table}
 
-\subsection{PTAT, CTAT, Ref - Voltage, Current and Resistance Design Combinations}
+\subsection{\colorbox{yellow}{PTAT, CTAT, Ref - Voltage, Current and Resistance Design Combinations}}
 $V_{PTAT}, V_{CTAT}, V_{Ref}$\\ $I_{PTAT}, I_{CTAT}, I_{Ref}$\\ $R_{PTAT}, R_{CTAT}, R_{Ref}$\\
-All P and C for 9 values. \\
+All P and C for 9 values. 
 \subsubsection*{Solution:}
-\begin{align*}
-V_{PTAT} &= I_{PTAT} \cdot R_{Ref} \\
-V_{PTAT} &= I_{Ref} \cdot R_{PTAT} \\
-V_{PTAT} &= \frac{V_{CTAT}}{R_{CTAT}}\cdot R_{PTAT} \\
-V_{PTAT} &= \frac{V_{PTAT}}{R_{PTAT}}\cdot R_{PTAT} \\
-V_{PTAT} &= (I_{PTAT} + I_{CTAT}) \cdot R_{PTAT} \\
-V_{CTAT} &= I_{CTAT} \cdot R_{Ref} \\
-V_{Ref} &= I_{Ref} \cdot R_{Ref} \\
-I_{PTAT} &= \frac{V_{PTAT}}{R_{Ref}} \\
-I_{CTAT} &= \frac{V_{CTAT}}{R_{Ref}} \\
-I_{Ref} &= \frac{V_{Ref}}{R_{Ref}} \\
-R_{PTAT} &= \frac{V_{PTAT}}{I_{Ref}} \\
-R_{CTAT} &= \frac{V_{CTAT}}{I_{Ref}} \\
-R_{Ref} &= \frac{V_{Ref}}{I_{Ref}} \\
-\end{align*}
+\textbf{Formulas for $V_{PTAT}$:}
+\begin{gather*}
+V_{PTAT} = I_{PTAT} \cdot R_{Ref} \\
+V_{PTAT} = I_{Ref} \cdot R_{PTAT} \\
+V_{PTAT} = \frac{V_{CTAT}}{R_{CTAT}}\cdot R_{PTAT} \\
+V_{PTAT} = \frac{V_{PTAT}}{R_{PTAT}}\cdot R_{PTAT} \\
+V_{PTAT} = (I_{PTAT} + I_{CTAT}) \cdot R_{PTAT}\\
+V_{PTAT} = V_{Ref} - V_{CTAT} \\
+V_{PTAT} = I_{CTAT}\text{(small slope)} \cdot R_{PTAT} \text{ (Non-linear)}
+\end{gather*}
 
+\textbf{Formulas for $V_{CTAT}$:}
+\begin{gather*}
+V_{CTAT} = I_{CTAT} \cdot R_{Ref} \\
+V_{CTAT} = I_{Ref} \cdot R_{CTAT} \\
+V_{CTAT} = \frac{V_{PTAT}}{R_{PTAT}}\cdot R_{CTAT} \\
+V_{CTAT} = \frac{V_{CTAT}}{R_{CTAT}}\cdot R_{CTAT} \\
+V_{CTAT} = (I_{PTAT} + I_{CTAT}) \cdot R_{CTAT} \\
+V_{CTAT} = V_{Ref} - V_{PTAT} \\
+V_{CTAT} = I_{PTAT}\text{(small slope)} \cdot R_{CTAT} \text{ (Non-linear)}
+\end{gather*}
 
+\textbf{Formulas for $V_{Ref}$:}
+\begin{gather*}
+V_{Ref} = I_{Ref} \cdot R_{Ref} \\
+V_{Ref} = (I_{PTAT} + I_{CTAT}) \cdot R_{Ref} \\
+V_{Ref} = \frac{V_{PTAT}}{R_{PTAT}}\cdot R_{Ref} \\
+V_{Ref} = \frac{V_{CTAT}}{R_{CTAT}}\cdot R_{Ref} \\
+V_{Ref} = \frac{V_{PTAT} + V_{CTAT}}{R_{Ref}}\cdot R_{Ref} \\
+V_{Ref} = V_{PTAT_1} - V_{PTAT_2} \\
+V_{Ref} = V_{CTAT_1} - V_{CTAT_2}
+\end{gather*}
+
+\textbf{Formulas for $I_{PTAT}$, $I_{CTAT}$, $I_{Ref}$:}
+\begin{gather*}
+I_{PTAT} = \frac{V_{PTAT}}{R_{Ref}} \\
+I_{PTAT} = \frac{I_{PTAT} \cdot R_{PTAT}}{R_{Ref}} \\
+I_{CTAT} = \frac{V_{CTAT}}{R_{Ref}} \\
+I_{CTAT} = \frac{I_{CTAT} \cdot R_{CTAT}}{R_{Ref}} \\
+I_{CTAT} = \frac{V_{CTAT}}{R_{CTAT}} \\
+I_{Ref} = \frac{V_{Ref}}{R_{Ref}}\\
+I_{Ref} = \frac{V_{CTAT}}{R_{CTAT}}\\
+I_{Ref} = \frac{V_{PTAT}}{R_{PTAT}}\\
+I_{Ref} = \frac{V_{PTAT} + V_{CTAT}}{R_{Ref}}\\
+I_{Ref}= \frac{I_{CTAT} \cdot R_{Ref}}{R_{CTAT}}\\
+I_{Ref}= \frac{I_{PTAT} \cdot R_{Ref}}{R_{PTAT}}
+\end{gather*}
+
+\textbf{Formulas for $R_{PTAT}$, $R_{CTAT}$, $R_{Ref}$:}
+\begin{gather*}
+R_{PTAT} = \frac{V_{PTAT}}{I_{Ref}} \\
+R_{PTAT} = \frac{V_{Ref} - V_{CTAT}}{I_{Ref}} \\
+R_{PTAT} = \frac{V_{PTAT} \cdot R_{PTAT}}{V_{CTAT}}\\
+R_{PTAT} = \frac{V_{PTAT} \cdot R_{CTAT}}{V_{CTAT}}\\
+R_{CTAT} = \frac{V_{CTAT}}{I_{Ref}} \\
+R_{CTAT} = \frac{V_{Ref} - V_{PTAT}}{I_{Ref}} \\
+R_{Ref} = \frac{V_{Ref}}{I_{Ref}}\\
+R_{CTAT} = \frac{V_{CTAT} \cdot R_{PTAT}}{V_{PTAT}}\\
+R_{CTAT} = \frac{V_{CTAT} \cdot R_{CTAT}}{V_{CTAT}}\\
+R_{Ref} = \frac{V_{PTAT}}{I_{PTAT}}
+\end{gather*}
+
+\section{Lecture 8 - Part of MidSem Project}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_8_Q1_ckt.jpeg}
+    \caption{Lecture 8 - Question 1: Circuit}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_8_Q1.jpeg}
+    \caption{Lec 8: Question 1}
+\end{figure}
+\subsection{Slope of $V_{EB}$ vs Temperature curve of a BJT}
+\subsection{Difference of $V_{EB}$ of two BJTs}
+\subsection{Find the multiplication factor to equate PTAT and CTAT voltages}
+\subsection{Simulate the BGR using ideal VCVS, VCVS for current mirror}
+\section{Lecture 9 - MOSFET}
+\subsection{NMOS I-V characteristics}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_9_Q1.jpeg}
+    \caption{Lecture 9 - Question 1}
+\end{figure}
+\subsection{PMOS I-V characteristics}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_9_Q2.jpeg}
+    \caption{Lecture 9 - Question 2}
+\end{figure}
+
+\section{Lecture 10 - Current Mirrors}
+\subsection{Prove that Threshold voltage is linear and CTAT}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_10_Q1.jpeg}
+    \caption{Lecture 10 - Question 1}
+\end{figure}
+
+\subsection{Finding the current and sizign of the mosfet required to make $V_{GS}$ as Reference}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_10_Q2.jpeg}
+    \caption{Lecture 10 - Question 2}
+\end{figure}
+
+\subsection{PMOS Current Mirror - Simple, Widlar, Low swing, High swing}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_10_Q3.jpeg}
+    \caption{Lecture 10 - Question 3}
+\end{figure}
+
+\subsection{Plot $V_{EB}$ w.r.t Process}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_10_Q4.jpeg}
+    \caption{Lecture 10 - Question 4}
+\end{figure}
+
+\section{Lecture 11 - Startup Condition, Power Down Signal, Random Mismatch}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_11_Questions.jpeg}
+    \caption{Lecture 11 - Question 1 and Question 2}
+\end{figure}
+\subsection{Question 1}
+\subsection{Question 2}
+
+\section{Lecture 12 - Small Signal Analysis of Current Mirrors}
+\subsection{Derivation of small signal equivalent}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_12_Q1.jpeg}
+    \caption{Lecture 12 - Question 1}
+\end{figure}
+\subsection{Finding the output resistance of the current mirror}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_12_Q2.jpeg}
+    \caption{Lecture 12 - Question 2}
+\end{figure}
+
+\section{Lecture 13 - Amplifiers}
+\subsection{CS Amplifier with resistive load}
+Design a CS amplifier with resistive load to get a gain of 20dB, $V_{DD} = 1.8V$, $I_Q$ = 1$\mu A$
+
+\section{Lecture 14 - Single Stage Amplifiers}
+\subsection{Drain feedback CS Amplifier}
+Find conditions for $C_1$, $C_2$ to be short circuit in a drain feedback CS amplifier(NMOS based).
+\subsection{Source feedback CS Amplifier}
+Find conditions on $R_G$, $C_1$, $C_2$ in source feedback bias CS Amplifier(NMOS based).
+\subsection{PMOS equivalent of CS Amplifiers}
+Draw PMOS equivalent of voltage mode CS Amplifier (6), Current Mode CS Amplifier(3), CD and CG amplifier.
+
+\section{Lecture 15 - Diffential Amplifiers}
+\subsection{ICMR and OCMR of PMOS differential pair}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_15_Q.png}
+    \caption{Lecture 15 - Question 1}
+\end{figure}
+
+\section{Lecture 16 - Parasitic Capacitances and Poles}
+\subsection{Bode Plot of NMOS CS Amp with capacitive load}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_16_Q.png}
+    \caption{Lecture 16 - Question 1}
+\end{figure}
+\section{Lecture 17}
 \end{document}
