@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  5 NOV 2025 01:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  11 NOV 2025 23:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,229 +1410,689 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--264
 
 
 [20 <./images/Lec_4_Q_2_3.jpeg> <./images/Lec_4_Q2_Soln.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 266.
+
 <images/Lec_5_Q_1.jpeg, id=454, 2409.0pt x 1764.5925pt>
 File: images/Lec_5_Q_1.jpeg Graphic file (type jpg)
 <use images/Lec_5_Q_1.jpeg>
 Package pdftex.def Info: images/Lec_5_Q_1.jpeg  used on input line 275.
 (pdftex.def)             Requested size: 341.43437pt x 250.08385pt.
-<images/Lec_5_Q1_1_Soln.png, id=455, 1329.46687pt x 633.86812pt>
-File: images/Lec_5_Q1_1_Soln.png Graphic file (type png)
-<use images/Lec_5_Q1_1_Soln.png>
-Package pdftex.def Info: images/Lec_5_Q1_1_Soln.png  used on input line 281.
-(pdftex.def)             Requested size: 426.79135pt x 203.48996pt.
+<images/Lec_5_Q_1_Soln_1.jpg, id=455, 2387.92125pt x 3212.0pt>
+File: images/Lec_5_Q_1_Soln_1.jpg Graphic file (type jpg)
+<use images/Lec_5_Q_1_Soln_1.jpg>
+Package pdftex.def Info: images/Lec_5_Q_1_Soln_1.jpg  used on input line 281.
+(pdftex.def)             Requested size: 426.79135pt x 574.06714pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--283
 
  []
 
-<images/Lec_5_Q1_2_Soln.png, id=456, 1334.73656pt x 633.86812pt>
-File: images/Lec_5_Q1_2_Soln.png Graphic file (type png)
-<use images/Lec_5_Q1_2_Soln.png>
-Package pdftex.def Info: images/Lec_5_Q1_2_Soln.png  used on input line 286.
-(pdftex.def)             Requested size: 426.79135pt x 202.67752pt.
 
 
 [21 <./images/Lec_4_Q3_Soln.png> <./images/Lec_5_Q_1.jpeg>]
-<images/Lec_5_Q_2_ckt.jpeg, id=467, 2409.0pt x 553.06625pt>
+<images/Lec_5_Q_1_Soln_2.jpg, id=466, 2409.0pt x 2244.385pt>
+File: images/Lec_5_Q_1_Soln_2.jpg Graphic file (type jpg)
+<use images/Lec_5_Q_1_Soln_2.jpg>
+Package pdftex.def Info: images/Lec_5_Q_1_Soln_2.jpg  used on input line 287.
+(pdftex.def)             Requested size: 426.79135pt x 397.60202pt.
+
+
+[22 <./images/Lec_5_Q_1_Soln_1.jpg>]
+<images/Lec_5_Q1_1_Soln.png, id=472, 1329.46687pt x 633.86812pt>
+File: images/Lec_5_Q1_1_Soln.png Graphic file (type png)
+<use images/Lec_5_Q1_1_Soln.png>
+Package pdftex.def Info: images/Lec_5_Q1_1_Soln.png  used on input line 293.
+(pdftex.def)             Requested size: 426.79135pt x 203.48996pt.
+<images/Lec_5_Q1_2_Soln.png, id=473, 1334.73656pt x 633.86812pt>
+File: images/Lec_5_Q1_2_Soln.png Graphic file (type png)
+<use images/Lec_5_Q1_2_Soln.png>
+Package pdftex.def Info: images/Lec_5_Q1_2_Soln.png  used on input line 298.
+(pdftex.def)             Requested size: 426.79135pt x 202.67752pt.
+
+
+[23 <./images/Lec_5_Q_1_Soln_2.jpg> <./images/Lec_5_Q1_1_Soln.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 302.
+
+<images/Lec_5_Q_2_ckt.jpeg, id=481, 2409.0pt x 553.06625pt>
 File: images/Lec_5_Q_2_ckt.jpeg Graphic file (type jpg)
 <use images/Lec_5_Q_2_ckt.jpeg>
-Package pdftex.def Info: images/Lec_5_Q_2_ckt.jpeg  used on input line 298.
+Package pdftex.def Info: images/Lec_5_Q_2_ckt.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 341.43437pt x 78.38235pt.
-<images/Lec_5_Q_2_ques.jpeg, id=468, 2298.5875pt x 1183.42125pt>
+<images/Lec_5_Q_2_ques.jpeg, id=482, 2298.5875pt x 1183.42125pt>
 File: images/Lec_5_Q_2_ques.jpeg Graphic file (type jpg)
 <use images/Lec_5_Q_2_ques.jpeg>
-Package pdftex.def Info: images/Lec_5_Q_2_ques.jpeg  used on input line 303.
+Package pdftex.def Info: images/Lec_5_Q_2_ques.jpeg  used on input line 315.
 (pdftex.def)             Requested size: 426.79135pt x 219.72403pt.
 
 
-[22 <./images/Lec_5_Q1_1_Soln.png> <./images/Lec_5_Q1_2_Soln.png> <./images/Lec_5_Q_2_ckt.jpeg>]
-<images/Lec_6_Q_1.jpeg, id=480, 2409.0pt x 819.06pt>
+[24 <./images/Lec_5_Q1_2_Soln.png> <./images/Lec_5_Q_2_ckt.jpeg> <./images/Lec_5_Q_2_ques.jpeg>]
+<images/Lec_6_Q_1.jpeg, id=493, 2409.0pt x 819.06pt>
 File: images/Lec_6_Q_1.jpeg Graphic file (type jpg)
 <use images/Lec_6_Q_1.jpeg>
-Package pdftex.def Info: images/Lec_6_Q_1.jpeg  used on input line 311.
+Package pdftex.def Info: images/Lec_6_Q_1.jpeg  used on input line 344.
 (pdftex.def)             Requested size: 341.43437pt x 116.07986pt.
-<images/Lec_6_Q_2.jpeg, id=481, 1966.34625pt x 803.0pt>
+<images/Lec_6_Q_2.jpeg, id=494, 1966.34625pt x 803.0pt>
 File: images/Lec_6_Q_2.jpeg Graphic file (type jpg)
 <use images/Lec_6_Q_2.jpeg>
-Package pdftex.def Info: images/Lec_6_Q_2.jpeg  used on input line 318.
+Package pdftex.def Info: images/Lec_6_Q_2.jpeg  used on input line 351.
 (pdftex.def)             Requested size: 341.43437pt x 139.42435pt.
 
 
-[23 <./images/Lec_5_Q_2_ques.jpeg> <./images/Lec_6_Q_1.jpeg>]
-<images/Lec_7_Q_1_2_3.jpeg, id=488, 2409.0pt x 3015.265pt>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 355.
+
+<images/Lec_7_Q_1_2_3.jpeg, id=495, 2409.0pt x 3015.265pt>
 File: images/Lec_7_Q_1_2_3.jpeg Graphic file (type jpg)
 <use images/Lec_7_Q_1_2_3.jpeg>
-Package pdftex.def Info: images/Lec_7_Q_1_2_3.jpeg  used on input line 345.
+Package pdftex.def Info: images/Lec_7_Q_1_2_3.jpeg  used on input line 378.
 (pdftex.def)             Requested size: 341.43437pt x 427.33327pt.
+<images/Lec_7_Q_1_ckt.png, id=496, 1082.54437pt x 301.8778pt>
+File: images/Lec_7_Q_1_ckt.png Graphic file (type png)
+<use images/Lec_7_Q_1_ckt.png>
+Package pdftex.def Info: images/Lec_7_Q_1_ckt.png  used on input line 383.
+(pdftex.def)             Requested size: 426.79135pt x 119.0124pt.
 
 
-[24 <./images/Lec_6_Q_2.jpeg>]
-Overfull \hbox (54.72565pt too wide) in paragraph at lines 364--364
+[25 <./images/Lec_6_Q_1.jpeg> <./images/Lec_6_Q_2.jpeg>]
+
+[26 <./images/Lec_7_Q_1_2_3.jpeg>]
+Overfull \hbox (54.72565pt too wide) in paragraph at lines 423--423
 [][][][][][][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\colorbox' on input line 364.
+(hyperref)                removing `\colorbox' on input line 423.
 
 
 
-[25 <./images/Lec_7_Q_1_2_3.jpeg>]
+[27 <./images/Lec_7_Q_1_ckt.png>]
 
-[26]
-<images/Lec_8_Q1_ckt.jpeg, id=507, 2061.7025pt x 911.405pt>
+[28]
+<images/Lec_8_Q1_ckt.jpeg, id=526, 2061.7025pt x 911.405pt>
 File: images/Lec_8_Q1_ckt.jpeg Graphic file (type jpg)
 <use images/Lec_8_Q1_ckt.jpeg>
-Package pdftex.def Info: images/Lec_8_Q1_ckt.jpeg  used on input line 433.
+Package pdftex.def Info: images/Lec_8_Q1_ckt.jpeg  used on input line 492.
 (pdftex.def)             Requested size: 341.43437pt x 150.93161pt.
-<images/Lec_8_Q1.jpeg, id=508, 2409.0pt x 1946.27126pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+<images/Lec_8_Q1.jpeg, id=527, 2409.0pt x 1946.27126pt>
 File: images/Lec_8_Q1.jpeg Graphic file (type jpg)
 <use images/Lec_8_Q1.jpeg>
-Package pdftex.def Info: images/Lec_8_Q1.jpeg  used on input line 438.
+Package pdftex.def Info: images/Lec_8_Q1.jpeg  used on input line 499.
 (pdftex.def)             Requested size: 426.79135pt x 344.78995pt.
 
 
-[27]
+[29 <./images/Lec_8_Q1_ckt.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 441.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 441.
+(hyperref)                removing `\colorbox' on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 441.
+(hyperref)                removing `math shift' on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 442.
+(hyperref)                removing `subscript' on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 442.
+(hyperref)                removing `math shift' on input line 502.
+
+<images/Lec_8_Q_1_ckt.png, id=533, 889.82437pt x 552.56438pt>
+File: images/Lec_8_Q_1_ckt.png Graphic file (type png)
+<use images/Lec_8_Q_1_ckt.png>
+Package pdftex.def Info: images/Lec_8_Q_1_ckt.png  used on input line 505.
+(pdftex.def)             Requested size: 341.43437pt x 212.02548pt.
+<images/Lec_8_Q_1_V_EB_graphs.png, id=534, 1437.11906pt x 623.32875pt>
+File: images/Lec_8_Q_1_V_EB_graphs.png Graphic file (type png)
+<use images/Lec_8_Q_1_V_EB_graphs.png>
+Package pdftex.def Info: images/Lec_8_Q_1_V_EB_graphs.png  used on input line 511.
+(pdftex.def)             Requested size: 426.79135pt x 185.11684pt.
+
+
+[30 <./images/Lec_8_Q1.jpeg> <./images/Lec_8_Q_1_ckt.png>]
+<images/Lec_8_Q_1_V_EB_slope_graphs.png, id=544, 1434.10782pt x 622.57594pt>
+File: images/Lec_8_Q_1_V_EB_slope_graphs.png Graphic file (type png)
+<use images/Lec_8_Q_1_V_EB_slope_graphs.png>
+Package pdftex.def Info: images/Lec_8_Q_1_V_EB_slope_graphs.png  used on input line 517.
+(pdftex.def)             Requested size: 426.79135pt x 185.27325pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 442.
+(hyperref)                removing `math shift' on input line 520.
 
-<images/Lec_9_Q1.jpeg, id=513, 2389.92876pt x 690.58pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 520.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 520.
+
+
+Overfull \hbox (4.67265pt too wide) in paragraph at lines 521--521
+[][][][][][][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 521.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 549.
+
+<images/Lec_9_Q1.jpeg, id=545, 2389.92876pt x 690.58pt>
 File: images/Lec_9_Q1.jpeg Graphic file (type jpg)
 <use images/Lec_9_Q1.jpeg>
-Package pdftex.def Info: images/Lec_9_Q1.jpeg  used on input line 449.
+Package pdftex.def Info: images/Lec_9_Q1.jpeg  used on input line 552.
 (pdftex.def)             Requested size: 341.43437pt x 98.65103pt.
 
 
-[28 <./images/Lec_8_Q1_ckt.jpeg> <./images/Lec_8_Q1.jpeg>]
-<images/Lec_9_Q2.jpeg, id=520, 1028.84375pt x 760.8425pt>
+[31 <./images/Lec_8_Q_1_V_EB_graphs.png> <./images/Lec_8_Q_1_V_EB_slope_graphs.png>]
+<images/tyrjrur5et.png, id=555, 752.0597pt x 486.31688pt>
+File: images/tyrjrur5et.png Graphic file (type png)
+<use images/tyrjrur5et.png>
+Package pdftex.def Info: images/tyrjrur5et.png  used on input line 563.
+(pdftex.def)             Requested size: 426.79135pt x 275.98653pt.
+<images/htjy.png, id=556, 749.04843pt x 485.56406pt>
+File: images/htjy.png Graphic file (type png)
+<use images/htjy.png>
+Package pdftex.def Info: images/htjy.png  used on input line 579.
+(pdftex.def)             Requested size: 426.79135pt x 276.66324pt.
+
+
+[32 <./images/Lec_9_Q1.jpeg> <./images/tyrjrur5et.png>]
+<images/grtgr.png, id=571, 751.30687pt x 482.55281pt>
+File: images/grtgr.png Graphic file (type png)
+<use images/grtgr.png>
+Package pdftex.def Info: images/grtgr.png  used on input line 586.
+(pdftex.def)             Requested size: 426.79135pt x 274.12283pt.
+<images/fvbcn.png, id=572, 750.55406pt x 483.30562pt>
+File: images/fvbcn.png Graphic file (type png)
+<use images/fvbcn.png>
+Package pdftex.def Info: images/fvbcn.png  used on input line 600.
+(pdftex.def)             Requested size: 426.79135pt x 274.83072pt.
+
+
+[33 <./images/htjy.png> <./images/grtgr.png>]
+<images/fgb.png, id=584, 748.29562pt x 480.29437pt>
+File: images/fgb.png Graphic file (type png)
+<use images/fgb.png>
+Package pdftex.def Info: images/fgb.png  used on input line 607.
+(pdftex.def)             Requested size: 426.79135pt x 273.93918pt.
+<images/grtu7i.png, id=585, 752.0597pt x 487.06969pt>
+File: images/grtu7i.png Graphic file (type png)
+<use images/grtu7i.png>
+Package pdftex.def Info: images/grtu7i.png  used on input line 617.
+(pdftex.def)             Requested size: 426.79135pt x 276.41373pt.
+
+
+[34 <./images/fvbcn.png> <./images/fgb.png>]
+<images/gthy.png, id=597, 751.30687pt x 501.37312pt>
+File: images/gthy.png Graphic file (type png)
+<use images/gthy.png>
+Package pdftex.def Info: images/gthy.png  used on input line 624.
+(pdftex.def)             Requested size: 426.79135pt x 284.81404pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 630.
+
+<images/Lec_9_Q2.jpeg, id=598, 1028.84375pt x 760.8425pt>
 File: images/Lec_9_Q2.jpeg Graphic file (type jpg)
 <use images/Lec_9_Q2.jpeg>
-Package pdftex.def Info: images/Lec_9_Q2.jpeg  used on input line 455.
+Package pdftex.def Info: images/Lec_9_Q2.jpeg  used on input line 633.
 (pdftex.def)             Requested size: 341.43437pt x 252.49516pt.
-<images/Lec_10_Q1.jpeg, id=521, 1439.3775pt x 1534.73375pt>
+
+
+[35 <./images/grtu7i.png> <./images/gthy.png>]
+<images/u7g.png, id=608, 752.0597pt x 484.81125pt>
+File: images/u7g.png Graphic file (type png)
+<use images/u7g.png>
+Package pdftex.def Info: images/u7g.png  used on input line 645.
+(pdftex.def)             Requested size: 426.79135pt x 275.13206pt.
+<images/yj.png, id=609, 752.0597pt x 485.56406pt>
+File: images/yj.png Graphic file (type png)
+<use images/yj.png>
+Package pdftex.def Info: images/yj.png  used on input line 652.
+(pdftex.def)             Requested size: 426.79135pt x 275.5593pt.
+
+
+[36 <./images/Lec_9_Q2.jpeg> <./images/u7g.png>]
+<images/ghj.png, id=619, 752.8125pt x 487.8225pt>
+File: images/ghj.png Graphic file (type png)
+<use images/ghj.png>
+Package pdftex.def Info: images/ghj.png  used on input line 662.
+(pdftex.def)             Requested size: 426.79135pt x 276.56555pt.
+<images/dsvf.png, id=620, 753.5653pt x 487.06969pt>
+File: images/dsvf.png Graphic file (type png)
+<use images/dsvf.png>
+Package pdftex.def Info: images/dsvf.png  used on input line 669.
+(pdftex.def)             Requested size: 426.79135pt x 275.85632pt.
+
+
+[37 <./images/yj.png> <./images/ghj.png>]
+<images/tyh.png, id=634, 755.07094pt x 485.56406pt>
+File: images/tyh.png Graphic file (type png)
+<use images/tyh.png>
+Package pdftex.def Info: images/tyh.png  used on input line 683.
+(pdftex.def)             Requested size: 426.79135pt x 274.45534pt.
+<images/grthy.png, id=635, 753.5653pt x 503.63156pt>
+File: images/grthy.png Graphic file (type png)
+<use images/grthy.png>
+Package pdftex.def Info: images/grthy.png  used on input line 690.
+(pdftex.def)             Requested size: 426.79135pt x 285.2363pt.
+
+
+[38 <./images/dsvf.png> <./images/tyh.png>]
+<images/grgnfhmj.png, id=647, 754.31813pt x 486.31688pt>
+File: images/grgnfhmj.png Graphic file (type png)
+<use images/grgnfhmj.png>
+Package pdftex.def Info: images/grgnfhmj.png  used on input line 700.
+(pdftex.def)             Requested size: 426.79135pt x 275.15541pt.
+<images/rgfrg.png, id=648, 756.57657pt x 487.8225pt>
+File: images/rgfrg.png Graphic file (type png)
+<use images/rgfrg.png>
+Package pdftex.def Info: images/rgfrg.png  used on input line 707.
+(pdftex.def)             Requested size: 426.79135pt x 275.18849pt.
+
+
+[39 <./images/grthy.png> <./images/grgnfhmj.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 714.
+
+<images/Lec_10_Q1.jpeg, id=660, 1439.3775pt x 1534.73375pt>
 File: images/Lec_10_Q1.jpeg Graphic file (type jpg)
 <use images/Lec_10_Q1.jpeg>
-Package pdftex.def Info: images/Lec_10_Q1.jpeg  used on input line 463.
+Package pdftex.def Info: images/Lec_10_Q1.jpeg  used on input line 717.
 (pdftex.def)             Requested size: 341.43437pt x 364.0581pt.
 
 
-[29 <./images/Lec_9_Q1.jpeg> <./images/Lec_9_Q2.jpeg>]
+[40 <./images/rgfrg.png>]
+<images/sfegrg.png, id=667, 279.29344pt x 316.93407pt>
+File: images/sfegrg.png Graphic file (type png)
+<use images/sfegrg.png>
+Package pdftex.def Info: images/sfegrg.png  used on input line 723.
+(pdftex.def)             Requested size: 320.0935pt x 363.243pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--726
+
+ []
+
+
+
+[41 <./images/Lec_10_Q1.jpeg>]
+<images/10.1.png, id=673, 752.0597pt x 499.8675pt>
+File: images/10.1.png Graphic file (type png)
+<use images/10.1.png>
+Package pdftex.def Info: images/10.1.png  used on input line 730.
+(pdftex.def)             Requested size: 320.0935pt x 212.7574pt.
+<images/10.2.png, id=674, 1435.61343pt x 640.64343pt>
+File: images/10.2.png Graphic file (type png)
+<use images/10.2.png>
+Package pdftex.def Info: images/10.2.png  used on input line 739.
+(pdftex.def)             Requested size: 426.79135pt x 190.45448pt.
+
+
+[42 <./images/sfegrg.png> <./images/10.1.png>]
+<images/10.3.png, id=683, 1437.87187pt x 640.64343pt>
+File: images/10.3.png Graphic file (type png)
+<use images/10.3.png>
+Package pdftex.def Info: images/10.3.png  used on input line 749.
+(pdftex.def)             Requested size: 426.79135pt x 190.15144pt.
+
+Overfull \hbox (86.84874pt too wide) in paragraph at lines 754--754
+[][][][][][][] 
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 467.
+(hyperref)                removing `\colorbox' on input line 754.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 467.
+(hyperref)                removing `math shift' on input line 754.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 467.
+(hyperref)                removing `subscript' on input line 754.
 
-<images/Lec_10_Q2.jpeg, id=530, 2409.0pt x 528.97626pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 754.
+
+<images/Lec_10_Q2.jpeg, id=684, 2409.0pt x 528.97626pt>
 File: images/Lec_10_Q2.jpeg Graphic file (type jpg)
 <use images/Lec_10_Q2.jpeg>
-Package pdftex.def Info: images/Lec_10_Q2.jpeg  used on input line 470.
+Package pdftex.def Info: images/Lec_10_Q2.jpeg  used on input line 757.
 (pdftex.def)             Requested size: 341.43437pt x 74.96825pt.
-<images/Lec_10_Q3.jpeg, id=531, 2272.49pt x 361.35pt>
+<images/efwrvrte.png, id=685, 752.8125pt x 501.37312pt>
+File: images/efwrvrte.png Graphic file (type png)
+<use images/efwrvrte.png>
+Package pdftex.def Info: images/efwrvrte.png  used on input line 764.
+(pdftex.def)             Requested size: 320.0935pt x 213.18404pt.
+
+
+[43 <./images/10.3.png> <./images/10.2.png> <./images/Lec_10_Q2.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
+
+ []
+
+<images/Vgs vs Id.png, id=696, 752.0597pt x 499.11469pt>
+File: images/Vgs vs Id.png Graphic file (type png)
+<use images/Vgs vs Id.png>
+Package pdftex.def Info: images/Vgs vs Id.png  used on input line 775.
+(pdftex.def)             Requested size: 320.0935pt x 212.43698pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--786
+
+ []
+
+<images/srbreberg.png, id=697, 747.54282pt x 499.11469pt>
+File: images/srbreberg.png Graphic file (type png)
+<use images/srbreberg.png>
+Package pdftex.def Info: images/srbreberg.png  used on input line 792.
+(pdftex.def)             Requested size: 320.0935pt x 213.71645pt.
+
+
+[44 <./images/efwrvrte.png> <./images/Vgs vs Id.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 801.
+
+<images/Lec_10_Q3.jpeg, id=706, 2272.49pt x 361.35pt>
 File: images/Lec_10_Q3.jpeg Graphic file (type jpg)
 <use images/Lec_10_Q3.jpeg>
-Package pdftex.def Info: images/Lec_10_Q3.jpeg  used on input line 477.
+Package pdftex.def Info: images/Lec_10_Q3.jpeg  used on input line 804.
 (pdftex.def)             Requested size: 341.43437pt x 54.28838pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
-[30 <./images/Lec_10_Q1.jpeg> <./images/Lec_10_Q2.jpeg>]
+ []
+
+<images/Lec_10_Q3_Soln.jpg, id=707, 2409.0pt x 2859.68375pt>
+File: images/Lec_10_Q3_Soln.jpg Graphic file (type jpg)
+<use images/Lec_10_Q3_Soln.jpg>
+Package pdftex.def Info: images/Lec_10_Q3_Soln.jpg  used on input line 811.
+(pdftex.def)             Requested size: 426.79135pt x 506.60472pt.
+
+
+[45 <./images/srbreberg.png> <./images/Lec_10_Q3.jpeg>]
+<images/Lec_10_Q3_Soln_2.jpg, id=715, 2227.32124pt x 1359.0775pt>
+File: images/Lec_10_Q3_Soln_2.jpg Graphic file (type jpg)
+<use images/Lec_10_Q3_Soln_2.jpg>
+Package pdftex.def Info: images/Lec_10_Q3_Soln_2.jpg  used on input line 817.
+(pdftex.def)             Requested size: 426.79135pt x 260.40488pt.
+
+
+[46 <./images/Lec_10_Q3_Soln.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 481.
+(hyperref)                removing `\colorbox' on input line 821.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 481.
+(hyperref)                removing `math shift' on input line 821.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 481.
+(hyperref)                removing `subscript' on input line 821.
 
-<images/Lec_10_Q4.jpeg, id=538, 2348.775pt x 759.83875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 821.
+
+<images/Lec_10_Q4.jpeg, id=721, 2348.775pt x 759.83875pt>
 File: images/Lec_10_Q4.jpeg Graphic file (type jpg)
 <use images/Lec_10_Q4.jpeg>
-Package pdftex.def Info: images/Lec_10_Q4.jpeg  used on input line 484.
+Package pdftex.def Info: images/Lec_10_Q4.jpeg  used on input line 824.
 (pdftex.def)             Requested size: 341.43437pt x 110.44626pt.
-<images/Lec_11_Questions.jpeg, id=539, 2061.7025pt x 1969.3575pt>
+<images/ryjtuk.png, id=722, 1440.13031pt x 650.43pt>
+File: images/ryjtuk.png Graphic file (type png)
+<use images/ryjtuk.png>
+Package pdftex.def Info: images/ryjtuk.png  used on input line 829.
+(pdftex.def)             Requested size: 426.79135pt x 192.75848pt.
+<images/Lec_11_Questions.jpeg, id=723, 2061.7025pt x 1969.3575pt>
 File: images/Lec_11_Questions.jpeg Graphic file (type jpg)
 <use images/Lec_11_Questions.jpeg>
-Package pdftex.def Info: images/Lec_11_Questions.jpeg  used on input line 491.
+Package pdftex.def Info: images/Lec_11_Questions.jpeg  used on input line 837.
 (pdftex.def)             Requested size: 341.43437pt x 326.13196pt.
-<images/Lec_12_Q1.jpeg, id=540, 3212.0pt x 904.37875pt>
+
+
+[47 <./images/Lec_10_Q3_Soln_2.jpg> <./images/Lec_10_Q4.jpeg> <./images/ryjtuk.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 840.
+
+<images/11.3.png, id=732, 587.19376pt x 240.9pt>
+File: images/11.3.png Graphic file (type png)
+<use images/11.3.png>
+Package pdftex.def Info: images/11.3.png  used on input line 843.
+(pdftex.def)             Requested size: 426.79135pt x 175.09462pt.
+<images/ythhh.png, id=733, 801.74532pt x 583.42969pt>
+File: images/ythhh.png Graphic file (type png)
+<use images/ythhh.png>
+Package pdftex.def Info: images/ythhh.png  used on input line 849.
+(pdftex.def)             Requested size: 426.79135pt x 310.57832pt.
+
+
+[48 <./images/Lec_11_Questions.jpeg> <./images/11.3.png>]
+<images/utjtutu.png, id=741, 754.31813pt x 502.87875pt>
+File: images/utjtutu.png Graphic file (type png)
+<use images/utjtutu.png>
+Package pdftex.def Info: images/utjtutu.png  used on input line 856.
+(pdftex.def)             Requested size: 426.79135pt x 284.52603pt.
+<images/11.1.png, id=742, 752.0597pt x 501.37312pt>
+File: images/11.1.png Graphic file (type png)
+<use images/11.1.png>
+Package pdftex.def Info: images/11.1.png  used on input line 864.
+(pdftex.def)             Requested size: 426.79135pt x 284.53099pt.
+
+
+[49 <./images/ythhh.png> <./images/utjtutu.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 868--870
+
+ []
+
+<images/asfefreg.png, id=752, 755.82375pt x 504.38437pt>
+File: images/asfefreg.png Graphic file (type png)
+<use images/asfefreg.png>
+Package pdftex.def Info: images/asfefreg.png  used on input line 874.
+(pdftex.def)             Requested size: 426.79135pt x 284.80838pt.
+
+
+[50 <./images/11.1.png> <./images/asfefreg.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 881.
+
+<images/11.2.png, id=761, 800.9925pt x 283.81032pt>
+File: images/11.2.png Graphic file (type png)
+<use images/11.2.png>
+Package pdftex.def Info: images/11.2.png  used on input line 884.
+(pdftex.def)             Requested size: 426.79135pt x 151.22423pt.
+<images/jyjyjk.png, id=762, 752.8125pt x 501.37312pt>
+File: images/jyjyjk.png Graphic file (type png)
+<use images/jyjyjk.png>
+Package pdftex.def Info: images/jyjyjk.png  used on input line 891.
+(pdftex.def)             Requested size: 320.0935pt x 213.18404pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--898
+
+ []
+
+<images/sfbgberhe.png, id=763, 752.0597pt x 483.30562pt>
+File: images/sfbgberhe.png Graphic file (type png)
+<use images/sfbgberhe.png>
+Package pdftex.def Info: images/sfbgberhe.png  used on input line 902.
+(pdftex.def)             Requested size: 320.0935pt x 205.70822pt.
+
+
+[51 <./images/11.2.png> <./images/jyjyjk.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 906--909
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 921.
+
+<images/Lec_12_Q1.jpeg, id=772, 3212.0pt x 904.37875pt>
 File: images/Lec_12_Q1.jpeg Graphic file (type jpg)
 <use images/Lec_12_Q1.jpeg>
-Package pdftex.def Info: images/Lec_12_Q1.jpeg  used on input line 501.
+Package pdftex.def Info: images/Lec_12_Q1.jpeg  used on input line 924.
 (pdftex.def)             Requested size: 341.43437pt x 96.12865pt.
+<images/Lec_12_Q1_Soln.jpg, id=773, 1816.7875pt x 1327.96124pt>
+File: images/Lec_12_Q1_Soln.jpg Graphic file (type jpg)
+<use images/Lec_12_Q1_Soln.jpg>
+Package pdftex.def Info: images/Lec_12_Q1_Soln.jpg  used on input line 930.
+(pdftex.def)             Requested size: 426.79135pt x 311.94936pt.
 
 
-[31 <./images/Lec_10_Q3.jpeg> <./images/Lec_10_Q4.jpeg> <./images/Lec_11_Questions.jpeg>]
-<images/Lec_12_Q2.jpeg, id=549, 2169.10374pt x 1354.05875pt>
+[52 <./images/sfbgberhe.png> <./images/Lec_12_Q1.jpeg>]
+<images/Lec_12_Q2.jpeg, id=781, 2169.10374pt x 1354.05875pt>
 File: images/Lec_12_Q2.jpeg Graphic file (type jpg)
 <use images/Lec_12_Q2.jpeg>
-Package pdftex.def Info: images/Lec_12_Q2.jpeg  used on input line 507.
+Package pdftex.def Info: images/Lec_12_Q2.jpeg  used on input line 937.
 (pdftex.def)             Requested size: 341.43437pt x 213.12074pt.
 
 
-[32 <./images/Lec_12_Q1.jpeg> <./images/Lec_12_Q2.jpeg>]
-<images/Lec_15_Q.png, id=556, 1284.8pt x 831.105pt>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 942.
+
+
+
+[53 <./images/Lec_12_Q1_Soln.jpg> <./images/Lec_12_Q2.jpeg>]
+<images/Lec_13_Q_Soln_theory.jpg, id=789, 2297.58376pt x 3212.0pt>
+File: images/Lec_13_Q_Soln_theory.jpg Graphic file (type jpg)
+<use images/Lec_13_Q_Soln_theory.jpg>
+Package pdftex.def Info: images/Lec_13_Q_Soln_theory.jpg  used on input line 947.
+(pdftex.def)             Requested size: 426.79135pt x 596.61226pt.
+
+
+[54]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 952.
+
+<images/Lec_14_Q1.jpg, id=794, 2409.0pt x 3139.73pt>
+File: images/Lec_14_Q1.jpg Graphic file (type jpg)
+<use images/Lec_14_Q1.jpg>
+Package pdftex.def Info: images/Lec_14_Q1.jpg  used on input line 956.
+(pdftex.def)             Requested size: 341.43437pt x 444.97285pt.
+
+
+[55 <./images/Lec_13_Q_Soln_theory.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 960.
+
+<images/Lec_14_Q2.jpg, id=802, 2253.41875pt x 3212.0pt>
+File: images/Lec_14_Q2.jpg Graphic file (type jpg)
+<use images/Lec_14_Q2.jpg>
+Package pdftex.def Info: images/Lec_14_Q2.jpg  used on input line 964.
+(pdftex.def)             Requested size: 341.43437pt x 486.63132pt.
+
+
+[56 <./images/Lec_14_Q1.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 968.
+
+<images/Lec_14_Q3_Soln_part_1.jpg, id=808, 2269.47874pt x 3212.0pt>
+File: images/Lec_14_Q3_Soln_part_1.jpg Graphic file (type jpg)
+<use images/Lec_14_Q3_Soln_part_1.jpg>
+Package pdftex.def Info: images/Lec_14_Q3_Soln_part_1.jpg  used on input line 973.
+(pdftex.def)             Requested size: 426.79135pt x 604.01294pt.
+
+
+[57 <./images/Lec_14_Q2.jpg>]
+<images/Lec_14_Q3_Soln_part_2.jpg, id=814, 1993.4475pt x 1373.13pt>
+File: images/Lec_14_Q3_Soln_part_2.jpg Graphic file (type jpg)
+<use images/Lec_14_Q3_Soln_part_2.jpg>
+Package pdftex.def Info: images/Lec_14_Q3_Soln_part_2.jpg  used on input line 979.
+(pdftex.def)             Requested size: 426.79135pt x 293.98102pt.
+
+
+[58 <./images/Lec_14_Q3_Soln_part_1.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 983.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 984.
+
+<images/Lec_15_Q.png, id=821, 1284.8pt x 831.105pt>
 File: images/Lec_15_Q.png Graphic file (type png)
 <use images/Lec_15_Q.png>
-Package pdftex.def Info: images/Lec_15_Q.png  used on input line 527.
+Package pdftex.def Info: images/Lec_15_Q.png  used on input line 987.
 (pdftex.def)             Requested size: 341.43437pt x 220.86317pt.
-<images/Lec_16_Q.png, id=557, 1120.185pt x 419.5675pt>
+<images/Lec_15_Q_Soln.jpg, id=822, 2409.0pt x 2934.965pt>
+File: images/Lec_15_Q_Soln.jpg Graphic file (type jpg)
+<use images/Lec_15_Q_Soln.jpg>
+Package pdftex.def Info: images/Lec_15_Q_Soln.jpg  used on input line 993.
+(pdftex.def)             Requested size: 426.79135pt x 519.9411pt.
+
+
+[59 <./images/Lec_14_Q3_Soln_part_2.jpg> <./images/Lec_15_Q.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\colorbox' on input line 998.
+
+<images/Lec_16_Q.png, id=829, 1120.185pt x 419.5675pt>
 File: images/Lec_16_Q.png Graphic file (type png)
 <use images/Lec_16_Q.png>
-Package pdftex.def Info: images/Lec_16_Q.png  used on input line 535.
+Package pdftex.def Info: images/Lec_16_Q.png  used on input line 1001.
 (pdftex.def)             Requested size: 341.43437pt x 127.88786pt.
 
 
-[33 <./images/Lec_15_Q.png (PNG copy)> <./images/Lec_16_Q.png (PNG copy)>] (main.aux)
+[60 <./images/Lec_15_Q_Soln.jpg>]
+<images/Lec_16_Q_Soln.jpg, id=836, 2409.0pt x 2898.83pt>
+File: images/Lec_16_Q_Soln.jpg Graphic file (type jpg)
+<use images/Lec_16_Q_Soln.jpg>
+Package pdftex.def Info: images/Lec_16_Q_Soln.jpg  used on input line 1007.
+(pdftex.def)             Requested size: 426.79135pt x 513.53964pt.
+
+
+[61 <./images/Lec_16_Q.png (PNG copy)>]
+
+[62 <./images/Lec_16_Q_Soln.jpg>] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5FF36B71C723FFA2EFE482D81D7E7154;13978.
+(rerunfilecheck)             Checksum: DC3F2F188D720FF88751742A4B380FDC;14598.
  ) 
 Here is how much of TeX's memory you used:
- 24767 strings out of 468225
- 467091 string characters out of 5432973
- 861421 words of memory out of 5000000
- 52713 multiletter control sequences out of 15000+600000
- 644937 words of font info for 84 fonts, out of 8000000 for 9000
+ 25216 strings out of 468225
+ 477384 string characters out of 5432973
+ 862532 words of memory out of 5000000
+ 53053 multiletter control sequences out of 15000+600000
+ 646058 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,101p,597b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (33 pages, 5874409 bytes).
+ 99i,10n,101p,627b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0700.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (62 pages, 10185587 bytes).
 PDF statistics:
- 949 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
- 716 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1347 PDF objects out of 1440 (max. 8388607)
+ 257 named destinations out of 1000 (max. 500000)
+ 951 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -263,7 +263,7 @@ For the non-inverting amplifier we can use either an opamp or a VCVS.\\
     \caption{Lecture 4 - Question 3 Solution: Non-inverting Amplifier using VCVS}
 \end{figure}
 \section{Lecture 5}
-\subsection{Single Pole Opamp with Feedback - Bode Plot}
+\subsection{\colorbox{green}{Single Pole Opamp with Feedback - Bode Plot}}
 In Cadence, Bode Plot for 
 \begin{enumerate}
     \item A = 100, check $V_x$ (offset) [DC]
@@ -278,6 +278,18 @@ In Cadence, Bode Plot for
 \textbf{Answer:}\\
 \begin{figure}[H]
     \centering
+    \includegraphics[width=1\linewidth]{images/Lec_5_Q_1_Soln_1.jpg}
+    \caption{Lecture 5 - Question 1 - Theory}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_5_Q_1_Soln_2.jpg}
+    \caption{Lecture 5 - Question 2 - Theory}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \includegraphics[width=1\linewidth]{images/Lec_5_Q1_1_Soln.png}
     \caption{Lec 5: Solution for Question 1\_1)}
 \end{figure}
@@ -287,7 +299,7 @@ In Cadence, Bode Plot for
     \caption{Lec 5: Solution for Question 1\_2}
 \end{figure}
 
-\subsection{Bode Plot for a 2 Pole System}
+\subsection{\colorbox{gray}{Bode Plot for a 2 Pole System}}
 In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
 \begin{enumerate}
     \item $G_{m_1} = G_{m_2} = 10 \mu F$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$
@@ -303,6 +315,27 @@ In cadence, AC analysis. Bode Plot for $\frac{V_{out}}{V_{{in}}}$
     \includegraphics[width=1\linewidth]{images/Lec_5_Q_2_ques.jpeg}
     \caption{Lecture 5 - Question 2 - Question}
 \end{figure}
+\textbf{Answer:}\\
+\textbf{Given:}
+\[
+g_m = 10~\mu\text{S}, \quad R_1 = R_2 = 10~\text{M}\Omega, \quad 
+C_1 = 10~\text{fF}, \quad C_2 = 2~\text{fF}
+\]
+
+\textbf{(1) DC Gain and Pole Locations:}
+\[
+A_1 = A_2 = g_m R = 10\times10^{-6}\times10\times10^{6} = 100
+\]
+\[
+A_0 = A_1A_2 = 100\times100 = 10^4 = 80~\text{dB}
+\]
+\[
+\omega_{p1} = \frac{1}{R_1C_1} = 1\times10^7~\text{rad/s}, \qquad
+\omega_{p2} = \frac{1}{R_2C_2} = 5\times10^7~\text{rad/s}
+\]
+\[
+f_{p1} = 1.59~\text{MHz}, \qquad f_{p2} = 7.96~\text{MHz}
+\]
 \section{Lecture 6}
 \subsection{Miller compensation - Bode Plot}
 Draw Bode plot for miller compensated circuit. \\ $G_{m_1} = G_{m_2} = 10 \mu S$ , $R_1 = R_2 = 10M \Omega$ , $C_1 = 10fF, C_2 = 2fF$ \\ Find Phase Margin, Unity Gain Bandwidth and DC Gain. (Theory + Cadence) (AC analysis/STB)
@@ -319,7 +352,7 @@ Simulate in cadence.
     \caption{Lecture 6 - Question 2}
 \end{figure}
 \section{Lecture 7}
-\subsection{Characterization of Resistors in TSMC 180nm}
+\subsection{\colorbox{yellow}{Characterization of Resistors in TSMC 180nm}}
 % There were 3 types of resistors in general. 
 % Poly resistors 
 % N well or p well resistors
@@ -345,6 +378,32 @@ R3 & Value & TypeC & Spread3 & Linear3 & Area3 \\
     \includegraphics[width=0.8\linewidth]{images/Lec_7_Q_1_2_3.jpeg}
     \caption{Lecture 7 - Question 1,2,3}
 \end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_7_Q_1_ckt.png}
+    \caption{Lec 7 : Question 1: Testbench}
+\end{figure}
+All the resistors are adjusted to a resistance of 1k\(\Omega\).
+
+\begin{table}[H]
+\centering
+\caption{Comparison of Different Resistors}
+% Reduce font slightly and scale the table to the text width so it fits page margins
+{\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+	extbf{Resistor} & \textbf{TC (ppm/\(^\circ\)C)} & \textbf{Type} & \textbf{Process Spread (\%)} & \textbf{Linearity} & \textbf{Area (\(\mu\)m\(^2\))} \\ \hline
+res (analogLib)   & 0                     & Ideal resistor &                              & 0             &                           \\ \hline
+rphpoly           & -297.56               & p+ polysilicon resistor       & 4.9            & 0.28          & 27.116      \\ \hline
+rphpoly\_dis      & -297.56               & p+ polysilicon                & 4.9            & 0.28          & 27.116      \\ \hline
+rphpoly\_rf       & -270.033              & p+ polysilicon RF resistor    & 4.4            & 0.27          & 12.6        \\ \hline
+rnhpoly           & -1375.19              & n+ polysilicon resistor       & 22.68          & 0.81          & 24.7084     \\ \hline
+rnwell            & 3324.13               & n-well resistor               & 54.8           & 3.31          & 50.37       \\ \hline
+\end{tabular}%
+} % end resizebox
+} % end scriptsize group
+\end{table}
 \subsection{Characterization of Capacitors in TSMC 180nm}
 Repeate Question 1 with a capacitor. 
 \begin{table}[ht]
@@ -433,56 +492,343 @@ R_{Ref} = \frac{V_{PTAT}}{I_{PTAT}}
     \includegraphics[width=0.8\linewidth]{images/Lec_8_Q1_ckt.jpeg}
     \caption{Lecture 8 - Question 1: Circuit}
 \end{figure}
+\textbf{Answer: }\\
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/Lec_8_Q1.jpeg}
     \caption{Lec 8: Question 1}
 \end{figure}
-\subsection{Slope of $V_{EB}$ vs Temperature curve of a BJT}
+\subsection{\colorbox{yellow}{Slope of $V_{EB}$ vs Temperature curve of a BJT}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_8_Q_1_ckt.png}
+    \caption{Lecture 8 - Question 1 - Testbench}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_8_Q_1_V_EB_graphs.png}
+    \caption{Lec 8: Q1: $V_{EB}$ vs Temperature curve of a BJT}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_8_Q_1_V_EB_slope_graphs.png}
+    \caption{Lec 8: Q1: Slope Calculation of $V_{EB}$ vs Temperature curve of a BJT}
+\end{figure}
 \subsection{Difference of $V_{EB}$ of two BJTs}
-\subsection{Find the multiplication factor to equate PTAT and CTAT voltages}
+\subsection{\colorbox{yellow}{Find the multiplication factor to equate PTAT and CTAT voltages}}
+At $27^\circ$C, the measured values are:
+\[
+V_{BE1} = 634.2644 \,\text{mV}, \qquad 
+\Delta V_{BE} = 54.42 \,\text{mV}
+\]
+
+The equality condition is given by:
+\[
+N \cdot \Delta V_{BE} = M \cdot V_{BE1}
+\]
+
+Rearranging,
+\[
+\frac{M}{N} = \frac{\Delta V_{BE}}{V_{BE1}}
+\]
+Substituting the values,
+\[
+\frac{M}{N} = \frac{54.42}{634.2644} \approx 0.0858
+\]
+
+Therefore,
+\[
+\frac{M}{N} \approx 0.086 \quad \Rightarrow \quad \frac{R_2}{R_1} \approx 0.086
+\]
+
 \subsection{Simulate the BGR using ideal VCVS, VCVS for current mirror}
 \section{Lecture 9 - MOSFET}
-\subsection{NMOS I-V characteristics}
+\subsection{\colorbox{yellow}{NMOS I-V characteristics}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_9_Q1.jpeg}
     \caption{Lecture 9 - Question 1}
 \end{figure}
-\subsection{PMOS I-V characteristics}
+\textbf{Vg: 0 to 1.8V}
+
+\begin{enumerate}[(i)]
+    \item \textbf{W/L = 220n/180n}
+    \begin{enumerate}[(a)]
+        \item Vds = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/tyrjrur5et.png}
+            \label{fig:id_vgs_220n_500mV}
+        \end{figure}
+        
+        \item Vds = 1.8 V
+        \begin{figure}[H]
+            \centering
+            % \includegraphics[width=1\linewidth]{images/fvbgf.png}   \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+
+    \item \textbf{W/L = 1µ/1µ}
+    \begin{enumerate}[(a)]
+        \item Vds = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/htjy.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vds = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/grtgr.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+\end{enumerate}
+
+\textbf{Vd: 0 to 1.8V}
+
+\begin{enumerate}[(i)]
+    \item \textbf{W/L = 220n/180n}
+    \begin{enumerate}[(a)]
+        \item Vgs = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/fvbcn.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vgs = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/fgb.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+
+    \item \textbf{W/L = 1µ/1µ}
+    \begin{enumerate}[(a)]
+        \item Vgs = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/grtu7i.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vgs = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/gthy.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{\colorbox{yellow}{PMOS I-V characteristics}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_9_Q2.jpeg}
     \caption{Lecture 9 - Question 2}
 \end{figure}
 
+\textbf{Vg: 0 to 1.8V}
+
+\begin{enumerate}[(i)]
+    \item \textbf{W/L = 220n/180n}
+    \begin{enumerate}[(a)]
+        \item Vd = 500 mV   
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/u7g.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vd = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/yj.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+
+    \item \textbf{W/L = 1µ/1µ}
+    \begin{enumerate}[(a)]
+        \item Vd = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/ghj.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vd = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/dsvf.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+\end{enumerate}
+
+\textbf{Vd: 0 to 1.8V}
+
+\begin{enumerate}[(i)]
+    \item \textbf{W/L = 220n/180n}
+    \begin{enumerate}[(a)]
+        \item Vgs = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/tyh.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vgs = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/grthy.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+
+    \item \textbf{W/L = 1µ/1µ}
+    \begin{enumerate}[(a)]
+        \item Vgs = 500 mV
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/grgnfhmj.png}
+            % \label{fig:placeholder}
+        \end{figure}
+        \vspace{10mm}
+        \item Vgs = 1.8 V
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\linewidth]{images/rgfrg.png}
+            % \label{fig:placeholder}
+        \end{figure}
+    \end{enumerate}
+\end{enumerate}
+
 \section{Lecture 10 - Current Mirrors}
-\subsection{Prove that Threshold voltage is linear and CTAT}
+\subsection{\colorbox{yellow}{Prove that Threshold voltage is linear and CTAT}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_10_Q1.jpeg}
     \caption{Lecture 10 - Question 1}
 \end{figure}
+\textbf{Answer: }\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/sfegrg.png}
+    \caption{Schematic}
+    % \label{fig:placeholder}
+\end{figure}
 
-\subsection{Finding the current and sizign of the mosfet required to make $V_{GS}$ as Reference}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/10.1.png}
+    \caption{Plot of Vth vs Temperature}
+    % \label{fig:placeholder}
+\end{figure}
+
+Clearly, Vth has a CTAT nature and is linear when varied with temperature.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/10.2.png}
+    \caption{Slope of Vth vs Temperature}
+    % \label{fig:placeholder}
+\end{figure}
+
+From the above plot, we can see that the slope of the Vth is almost constant.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{images/10.3.png}
+    \caption{Slope across slow, typical and fast corners}
+    % \label{fig:placeholder}
+\end{figure}
+
+\subsection{\colorbox{yellow}{Finding the current and sizing of the mosfet required to make $V_{GS}$ as Reference}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_10_Q2.jpeg}
     \caption{Lecture 10 - Question 2}
 \end{figure}
 
-\subsection{PMOS Current Mirror - Simple, Widlar, Low swing, High swing}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/efwrvrte.png}
+    \caption{Vgs vs Temperature}
+    % \label{fig:placeholder}
+\end{figure}
+
+(i) Find I such that Vgs becomes Vref \\
+
+Since Vref isn't specifically given, let's aim for Vref = 0.5V. And the W/L for this is 2u/180n. Now, we sweep the current in the circuit to find the value of I for which we obtain Vgs = Vref.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/Vgs vs Id.png}
+    \caption{Vgs vs Id}
+    % \label{fig:placeholder}
+\end{figure}
+
+I = 5.75 uA for Vgs = Vref = 0.5V \\
+
+
+\noindent
+(ii) Find W/L such that Vgs becomes Vref \\
+Let us consider Vref = 0.5V and reference current as 3uA.\\
+
+Let L = 180n and W = k * 180n
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/srbreberg.png}
+    \caption{Vgs vs k}
+    % \label{fig:placeholder}
+\end{figure}
+
+From the sweep of value of k, we obtain Vref at Vgs at k = 25.05.
+
+Thus, W/L = 25.05.
+
+\subsection{\colorbox{yellow}{PMOS Current Mirror - Simple, Widlar, Low swing, High swing}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_10_Q3.jpeg}
     \caption{Lecture 10 - Question 3}
 \end{figure}
+\textbf{Answer: }\\
 
-\subsection{Plot $V_{EB}$ w.r.t Process}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_10_Q3_Soln.jpg}
+    \caption{Lecture 10 - Question 3 - Solution}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_10_Q3_Soln_2.jpg}
+    \caption{Lecture 10 - Question 3 - Plots}
+\end{figure}
+
+\subsection{\colorbox{yellow}{Plot $V_{EB}$ w.r.t Process}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_10_Q4.jpeg}
     \caption{Lecture 10 - Question 4}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/ryjtuk.png}
+    \caption{Vbe in different corners}
+    % \label{fig:placeholder}
 \end{figure}
 
 \section{Lecture 11 - Startup Condition, Power Down Signal, Random Mismatch}
@@ -491,16 +837,100 @@ R_{Ref} = \frac{V_{PTAT}}{I_{PTAT}}
     \includegraphics[width=0.8\linewidth]{images/Lec_11_Questions.jpeg}
     \caption{Lecture 11 - Question 1 and Question 2}
 \end{figure}
-\subsection{Question 1}
-\subsection{Question 2}
+\subsection{\colorbox{yellow}{Question 1}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/11.3.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/ythhh.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+(i) Plot I vs t without Startup circuit
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/utjtutu.png}
+    \caption{Current in the circuit without startup circuit}
+    % \label{fig:placeholder}
+\end{figure}
+
+(ii) Plot I vs t with Startup circuit
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/11.1.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+We can see that without the startup circuit, the current in the brach has settled to the desired 0.67uA after significant time of 80us. \\
+But, after introducing the startup circuit, we can see that the current has settled in afew nano seconds. This verifies that the startup circuit is working. \\
+
+(iii) Current in Startup Circuit
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/asfefreg.png}
+    \caption{Current in startup circuit}
+    % \label{fig:placeholder}
+\end{figure}
+
+The current in the startup circuit is almost 3pA after the current in the branches is settled at required 0.67uA, which is very small as needed, since it should interfere with the normal working of the circuit. 
+
+\subsection{\colorbox{yellow}{Question 2}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/11.2.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+(i) 220n/180n
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/jyjyjk.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+\noindent
+Mean =2.657u\\
+Std Dev = 42.72n\\
+
+(ii) 10u/10u
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/sfbgberhe.png}
+    % \label{fig:placeholder}
+\end{figure}
+
+\noindent
+Mean = 1.026u\\
+Std Dev = 5.628n\\
+
+We can clearly observe that smaller device dimensions result in significantly higher mismatch, whereas larger device dimensions exhibit much lower mismatch.
+
+This behavior is explained by Pelgrom's mismatch model, which states that the standard deviation of mismatch is inversely proportional to the square root of the device area:
+
+\[
+\sigma_{\text{mismatch}} \propto \frac{1}{\sqrt{WL}}
+\]
+
+Thus, increasing the transistor width \(W\) and length \(L\) decreases the mismatch variation.
 
 \section{Lecture 12 - Small Signal Analysis of Current Mirrors}
-\subsection{Derivation of small signal equivalent}
+\subsection{\colorbox{yellow}{Derivation of small signal equivalent}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_12_Q1.jpeg}
     \caption{Lecture 12 - Question 1}
 \end{figure}
+\subsubsection*{Solution:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_12_Q1_Soln.jpg}
+    \caption{Lecture 12 - Question 1 - Solution}
+\end{figure}
+
 \subsection{Finding the output resistance of the current mirror}
 \begin{figure}[H]
     \centering
@@ -509,31 +939,74 @@ R_{Ref} = \frac{V_{PTAT}}{I_{PTAT}}
 \end{figure}
 
 \section{Lecture 13 - Amplifiers}
-\subsection{CS Amplifier with resistive load}
+\subsection{\colorbox{green}{CS Amplifier with resistive load}}
 Design a CS amplifier with resistive load to get a gain of 20dB, $V_{DD} = 1.8V$, $I_Q$ = 1$\mu A$
+\subsubsection*{Solution:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_13_Q_Soln_theory.jpg}
+    \caption{Lecture 13 - Question 1 - Solution - Theory}
+\end{figure}
 
 \section{Lecture 14 - Single Stage Amplifiers}
-\subsection{Drain feedback CS Amplifier}
+\subsection{\colorbox{yellow}{Drain feedback CS Amplifier}}
 Find conditions for $C_1$, $C_2$ to be short circuit in a drain feedback CS amplifier(NMOS based).
-\subsection{Source feedback CS Amplifier}
-Find conditions on $R_G$, $C_1$, $C_2$ in source feedback bias CS Amplifier(NMOS based).
-\subsection{PMOS equivalent of CS Amplifiers}
-Draw PMOS equivalent of voltage mode CS Amplifier (6), Current Mode CS Amplifier(3), CD and CG amplifier.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_14_Q1.jpg}
+    \caption{Lecture 14 - Question 1}
+\end{figure}
 
-\section{Lecture 15 - Diffential Amplifiers}
-\subsection{ICMR and OCMR of PMOS differential pair}
+\subsection{\colorbox{yellow}{Source feedback CS Amplifier}}
+Find conditions on $R_G$, $C_1$, $C_2$ in source feedback bias CS Amplifier(NMOS based).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/Lec_14_Q2.jpg}
+    \caption{Lecture 14 - Question 2}
+\end{figure}
+
+\subsection{\colorbox{yellow}{PMOS equivalent of CS Amplifiers}}
+Draw PMOS equivalent of voltage mode CS Amplifier (6), Current Mode CS Amplifier(3), CD and CG amplifier.
+\subsubsection*{Solution:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_14_Q3_Soln_part_1.jpg}
+    \caption{Lecture 14 - Question 3 - Solution - Part 1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_14_Q3_Soln_part_2.jpg}
+    \caption{Lecture 14 - Question 3 - Solution - Part 2}
+\end{figure}
+
+\section{\colorbox{yellow}{Lecture 15 - Differential Amplifiers}}
+\subsection{\colorbox{yellow}{ICMR and OCMR of PMOS differential pair}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_15_Q.png}
     \caption{Lecture 15 - Question 1}
 \end{figure}
+\subsubsection*{Solution:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_15_Q_Soln.jpg}
+    \caption{Lecture 15 - Question 1 - Solution}
+\end{figure}
 
 \section{Lecture 16 - Parasitic Capacitances and Poles}
-\subsection{Bode Plot of NMOS CS Amp with capacitive load}
+\subsection{\colorbox{yellow}{Bode Plot of NMOS CS Amp with capacitive load}}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/Lec_16_Q.png}
     \caption{Lecture 16 - Question 1}
 \end{figure}
+\subsubsection*{Solution:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/Lec_16_Q_Soln.jpg}
+    \caption{Lecture 16 - Question 1 - Solution}
+\end{figure}
+
 \section{Lecture 17}
 \end{document}
